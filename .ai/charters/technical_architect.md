@@ -15,13 +15,13 @@ Inputs
 - Current codebase and team skills
 
 Outputs
-- Architecture decision record (ADR) set
+- Technical design documents and recommendations
 - High-level architecture diagram and component docs
 - Interface/data contract specs
 - Cost model and scaling plan
 
 Primary workflows
-1) Requirements -> NFRs/SLOs -> options assessment -> ADRs
+1) Requirements -> NFRs/SLOs -> options assessment -> technical recommendations
 2) Architecture design -> diagrams -> interface specs -> review
 3) Security & privacy threat modeling -> mitigations
 
@@ -31,8 +31,8 @@ Guardrails
 - Enforce least-privilege and data minimization
 
 KPIs
-- Change lead time after architecture decisions
-- Incident rate tied to architectural risks
+- Change lead time after technical decisions
+- Technical risk mitigation effectiveness
 - Cost to serve per unit (e.g., per inference)
 
 Escalation/Handoffs

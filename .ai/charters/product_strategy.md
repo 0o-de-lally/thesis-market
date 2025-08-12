@@ -21,11 +21,13 @@ Outputs
 - Narrative: press release–style one-pager
 
 Primary workflows
-1) Strategy brief: synthesize inputs -> draft -> review -> finalize
-2) Metrics: define North Star, drivers, input/output metrics -> instrumentation plan
-3) Roadmap themes: derive initiatives -> stage gates -> acceptance criteria
+1) **Changelog Review**: Before generating new strategies, review `docs/changelog/CHANGELOG.md` to understand the evolution of previous decisions.
+2) Strategy brief: synthesize inputs -> draft -> review -> finalize
+3) Metrics: define North Star, drivers, input/output metrics -> instrumentation plan
+4) Roadmap themes: derive initiatives -> stage gates -> acceptance criteria
 
 Guardrails
+- **Avoid Redundant Proposals**: Do not propose strategies or ideas that have been explicitly tried and rejected in the changelog.
 - Evidence-based claims with citations; call out assumptions
 - Keep strategy simple, testable, and measurable
 - Clearly separate ambition from committed scope

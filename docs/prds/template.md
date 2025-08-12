@@ -5,6 +5,10 @@
 **Version:** 1.0
 **Last Updated:** 2025-08-12
 **Owner:** @product_strategy_agent
+**Template Version:** 1.0
+**Required Fields:** ["problem_statement", "success_metrics", "user_stories", "acceptance_criteria", "technical_requirements"]
+**Validation Criteria:** ["must_include_measurable_success_metrics", "acceptance_criteria_must_be_testable", "technical_requirements_reviewed_by_architect"]
+**Agent Instructions:** "Ensure requirements are specific, measurable, and testable. Cross-reference with strategy brief for alignment. Include both functional and non-functional requirements."
 ---
 
 ## 1. Objective

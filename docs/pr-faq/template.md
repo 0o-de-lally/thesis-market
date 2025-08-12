@@ -1,5 +1,12 @@
 # Press Release: [Product Name]
 
+---
+**Template Version:** 1.0
+**Required Fields:** ["product_name", "one_sentence_description", "target_customers", "key_features", "availability"]
+**Validation Criteria:** ["press_release_under_500_words", "at_least_3_key_features", "customer_quote_included"]
+**Agent Instructions:** "Write in active voice. Include specific, measurable benefits. Ensure the press release passes the 'mom test' - would a non-technical person understand the value?"
+---
+
 **FOR IMMEDIATE RELEASE**
 
 **[City, State] – [Date]** – Today, [Company Name] announced the launch of [Product Name], a revolutionary new product that [one-sentence description of what it does]. For [target customers] who [describe the struggle or problem], [Product Name] provides [describe the main benefit].

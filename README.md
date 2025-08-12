@@ -13,23 +13,20 @@ This repository is designed to be highly accessible for both human and AI collab
 
 ```
 /
-├── .ai/                  # AI-specific configurations, prompts, and context templates.
-├── data/                 # Datasets, training/evaluation data.
+├── .ai/                  # AI agent configurations and charters.
+│   └── charters/         # Roles and instructions for AI agents.
 ├── docs/                 # Project documentation.
-│   ├── adrs/             # Architecture Decision Records.
-│   └── agents/           # Charters for AI agents collaborating on this project.
-├── notebooks/            # Jupyter notebooks for exploration and analysis.
-├── scripts/              # Automation scripts.
-├── src/                  # Source code.
-├── tests/                # Unit, integration, and end-to-end tests.
+│   ├── changelog/        # Append-only log of changes to canonical documents.
+│   ├── pr-faq/           # Customer-centric narratives for major initiatives.
+│   ├── prds/             # Detailed requirements for specific features.
+│   └── strategy-briefs/  # High-level strategic direction and goals.
 ├── project.manifest.yaml # Machine-readable index of all project resources.
 └── README.md             # This file.
 ```
 
 ## Key Resources
 
-- **Agent Charters:** See `docs/agents/` for the roles and responsibilities of the AI agents working on this project.
-- **Architecture Decisions:** See `docs/adrs/` for key technical decisions.
-- **Data:** All project data is described in `data/data.manifest.yaml`.
+- **Agent Charters:** See `.ai/charters/` for the roles and responsibilities of the AI agents working on this project.
+- **Strategic Documentation:** See `docs/` for strategy briefs, PR/FAQs, and product requirements documents.
 
 For a complete, machine-readable list of all project resources, refer to `project.manifest.yaml`.

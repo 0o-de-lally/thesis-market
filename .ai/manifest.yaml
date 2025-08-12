@@ -64,16 +64,16 @@ agents:
     inputs:
       - product_strategy
       - constraints
-      - current_codebase
+      - technical_requirements
     outputs:
-      - adrs
+      - technical_design_docs
       - architecture_diagram
       - interface_specs
       - cost_model
     kpis:
       - change_lead_time
-      - incident_rate
+      - technical_risk_mitigation
       - cost_to_serve
 entrypoints:
   human: README.md
-  agent: agents.manifest.yaml
+  agent: manifest.yaml

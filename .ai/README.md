@@ -1,10 +1,11 @@
 # .ai Directory
 
-This directory contains operational assets and configurations that are consumed by AI agents during their work. While `docs/agents` defines *who* the agents are, this directory provides the tools and context they *use*.
+This directory contains the operational assets for AI agents collaborating on the Vision-Market project.
 
 ## Contents
 
-- **/prompts**: Reusable prompt templates for common tasks (e.g., `generate_test_cases.md`).
-- **/context**: Important context files for agents to reference (e.g., `coding_style_guide.md`).
-- **/tools**: Specialized scripts used exclusively by agents.
-- **/configs**: Configuration files for AI-specific services or frameworks.
+- **charters/**: Defines the roles, capabilities, and instructions for each AI agent
+- **manifest.yaml**: Machine-readable index of all agents and their metadata
+- **README.md**: This file
+
+All agent context, instructions, and operational guidance is contained within the individual agent charters in the `charters/` directory.

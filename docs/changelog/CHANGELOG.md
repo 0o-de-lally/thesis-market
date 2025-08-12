@@ -18,3 +18,13 @@ This document is an append-only log of significant changes to the canonical prod
 **Author:** `@system`
 **Change:** Initial creation of the PRD template.
 ---
+**Date:** 2025-08-12
+**Document:** `Project Structure and AI Agent Instructions`
+**Author:** `@system`
+**Change:** Major improvements to AI agent clarity and structure: Fixed file reference inconsistencies in manifest files, created missing directory structure (.ai/prompts/, .ai/context/, .ai/tools/, .ai/configs/), added AI-friendly metadata to document templates, created agent workflow documentation, and added example files for prompts and context.
+---
+**Date:** 2025-08-12
+**Document:** `Project Structure Cleanup`
+**Author:** `@system`
+**Change:** Removed unnecessary directories and references: Removed ADR-related files and folders, data folder and associated files, notebooks, scripts, src, and tests directories. Updated README.md and agent charters to reflect the streamlined structure focused on strategic documentation and AI agent coordination.
+---
