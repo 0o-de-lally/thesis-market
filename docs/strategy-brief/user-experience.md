@@ -1,4 +1,5 @@
-# portfolio-of-beliefs
+# User Experience
+## portfolio-of-beliefs
 
 At a high level, we'd like a user to declare a "thesis" for how they see the world playing out. And then bets placed in markets of different timelines that would validate that thesis.
 
