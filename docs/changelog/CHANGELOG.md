@@ -33,3 +33,26 @@ This document is an append-only log of significant changes to the canonical prod
 **Author:** `@system`
 **Change:** Simplified .ai directory structure by removing unused subdirectories (context/, configs/, prompts/, tools/) and their associated documentation. All agent instructions and context are now consolidated within individual agent charters, eliminating duplication and reducing complexity.
 ---
+**Date:** 2025-08-12
+**Document:** `/docs/strategy-brief/product-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Updated product strategy to clarify that Vision-Market is a specific application on Open Libra - a curated prediction market for megatrends in business and society. Added detailed description of how Vision-Market aligns with Open Libra's long-term value strategy by attracting deep thinking researchers and enabling participation in impactful themes. Expanded the Problem Statement to include OL's recruitment and incentive challenges (opportunistic free mining, low validator rewards, mercenary operators) and positioned Vision-Market—with purpose-built incentives—as a Schelling point for "see around corners" contributors.
+---
+---
+**Date:** 2025-08-12
+**Document:** `/docs/strategy-brief/product-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added agent-aligned metadata (Required Fields, Validation Criteria, Agent Instructions) and compact sections (Assumptions, Guardrails, Stage Gates, Handoffs) to make the strategy actionable per .ai charters while keeping the focus on the problem statement.
+---
+---
+**Date:** 2025-08-12
+**Document:** `/docs/strategy-brief/product-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added section on OL's meta-endowment structure (donor-voice accounts), implications for recruiting qualified investment managers, and the role of Vision-Market as a funnel for high-signal contributors. Added related assumption and handoff to Market Intelligence for manager scan and evaluation criteria.
+---
+---
+**Date:** 2025-08-12
+**Document:** `/docs/strategy-brief/product-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added "Truth sources & verification" section noting unverified claims about Open Libra and the need to import canonical docs (referenced external path not accessible). Assigned follow-up to Market Intelligence to verify and cite.
+---
