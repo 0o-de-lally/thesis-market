@@ -1,0 +1,79 @@
+# Canonical index for agent-aware orchestration.
+# Parsable by tools; keep in sync with README.md.
+version: 1
+product: Vision-Market
+last_updated: 2025-08-12
+agents:
+  - id: orchestrator
+    name: Orchestrator Agent
+    file: orchestrator.md
+    purpose: "Coordinate agent collaboration, route tasks, enforce SLAs, maintain source of truth."
+    inputs:
+      - product_goals
+      - agent_capabilities
+      - backlog_status
+      - constraints
+    outputs:
+      - task_graph
+      - status_summaries
+      - risk_register
+      - handoff_packets
+    kpis:
+      - on_time_delivery_rate
+      - rework_rate
+      - lead_time
+      - stakeholder_satisfaction
+  - id: product_strategy
+    name: Product Strategy Agent
+    file: product_strategy.md
+    purpose: "Define strategic narrative, objectives, and guardrails."
+    inputs:
+      - company_strategy
+      - market_signals
+      - technical_feasibility
+    outputs:
+      - strategy_brief
+      - okrs_kpis
+      - roadmap_themes
+      - narrative_one_pager
+    kpis:
+      - clarity_score
+      - stage_gate_hit_rate
+      - strategy_stability
+  - id: market_intelligence
+    name: Market Intelligence Agent
+    file: market_intelligence.md
+    purpose: "Gather and synthesize market, customer, and competitor evidence."
+    inputs:
+      - research_questions
+      - data_sources
+      - customer_insights
+    outputs:
+      - evidence_packs
+      - competitive_matrix
+      - segment_icp
+      - pricing_hypotheses
+    kpis:
+      - coverage
+      - freshness
+      - decision_latency_reduction
+  - id: technical_architect
+    name: Technical Architect Agent
+    file: technical_architect.md
+    purpose: "Define target architecture, interfaces, NFRs, and cost model."
+    inputs:
+      - product_strategy
+      - constraints
+      - current_codebase
+    outputs:
+      - adrs
+      - architecture_diagram
+      - interface_specs
+      - cost_model
+    kpis:
+      - change_lead_time
+      - incident_rate
+      - cost_to_serve
+entrypoints:
+  human: README.md
+  agent: agents.manifest.yaml

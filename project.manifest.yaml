@@ -1,0 +1,39 @@
+# Project Manifest: Vision-Market
+# Canonical index of all major project resources for AI agent consumption.
+
+version: 1.0
+last_updated: "2025-08-12"
+project_status: "Incubation"
+
+# Primary entry points for different types of collaborators.
+entry_points:
+  human_readme: "README.md"
+  agent_manifest: "project.manifest.yaml"
+
+# Canonical Product Documents
+documentation:
+  - type: "strategy_brief"
+    path: "docs/strategy-briefs/"
+    description: "The high-level strategic direction and goals."
+  - type: "pr_faq"
+    path: "docs/pr-faq/"
+    description: "Customer-centric narratives for major initiatives."
+  - type: "prd"
+    path: "docs/prds/"
+    description: "Detailed requirements for specific features."
+  - type: "changelog"
+    path: "docs/changelog/CHANGELOG.md"
+    description: "Append-only log of all changes to canonical documents."
+
+# AI Workforce assets and configurations.
+ai_workforce:
+  - type: "agent_charters"
+    path: ".ai/manifest.yaml"
+    description: "Defines the roles, capabilities, and instructions for the AI agents collaborating on this project."
+
+# Key contacts or owners.
+owners:
+  - role: "Product Strategy"
+    contact: "product_strategy_agent"
+  - role: "Technical Architecture"
+    contact: "technical_architect_agent"
