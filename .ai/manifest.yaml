@@ -1,7 +1,7 @@
 # Canonical index for agent-aware orchestration.
 # Parsable by tools; keep in sync with README.md.
 version: 1
-product: Vision-Market
+product: Thesis-Market
 last_updated: 2025-08-12
 agents:
   - id: orchestrator

@@ -1,4 +1,6 @@
-# Vision-Market Product Strategy
+# Thesis-Market Product Strategy
+
+for people with vision
 
 ---
 **Document Status:** Draft
@@ -14,9 +16,9 @@
 
 Open Libra is a different kind of blockchain. We prioritize the long game. The blockchain exists for the asset $LBR and to make it a valuable asset into perpetuity. As such we don't plan to fight the typical L1 battle, to become a world computer. Instead we include apps and features and games which improve the probability of $LBR compounding into perpetuity.
 
-## Vision-Market: A Curated Prediction Market for Megatrends
+## Thesis-Market: A Curated Prediction Market for Megatrends
 
-**TLDR:** Vision-Market is a prediction market application on Open Libra, curated to include markets for megatrends in business and society.
+**TLDR:** Thesis-Market is a prediction market application on Open Libra, curated to include markets for megatrends in business and society.
 
 Over time, prediction markets help surface private information and reveal experts. Open Libra can create markets for long-term themes such as:
 - Economic progress
@@ -46,7 +48,7 @@ Existing prediction markets lack curation and focus on short-term events rather 
 **Implication:**
 Without a Schelling point and purpose-built incentive design for high-signal contributors, OL will under-recruit the human capital needed to compound $LBR value over long horizons.
 
-**Solution:** Vision-Market on Open Libra creates a curated prediction market focused on megatrends, attracting thoughtful participants while contributing to $LBR's long-term value through meaningful economic activity and expert knowledge aggregation. With purpose-built rewards and incentives, Vision-Market can become OL's Schelling point for people who can "see around corners."
+**Solution:** Thesis-Market on Open Libra creates a curated prediction market focused on megatrends, attracting thoughtful participants while contributing to $LBR's long-term value through meaningful economic activity and expert knowledge aggregation. With purpose-built rewards and incentives, Thesis-Market can become OL's Schelling point for people who can "see around corners."
 
 ## OL Meta-Endowment Structure (Donor-Voice Accounts)
 
@@ -54,7 +56,7 @@ OL operates "donor-voice-accounts" as perpetual endowments that donors can monit
 
 Implications:
 - The business strategy is simple, but today’s primary constraint is recruiting: we historically attracted casual infrastructure "miners," not visionary thinkers and disciplined managers.
-- Vision-Market can serve as a discovery funnel for high-signal contributors whose demonstrated foresight (over megatrend markets) can inform manager recruitment and mandate design.
+- Thesis-Market can serve as a discovery funnel for high-signal contributors whose demonstrated foresight (over megatrend markets) can inform manager recruitment and mandate design.
 
 ## Assumptions & Evidence Status
 - Prediction markets can reliably surface private information and identify expert forecasters over long horizons. [Assumption → Market Intelligence to validate]

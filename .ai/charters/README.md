@@ -1,6 +1,6 @@
-# Vision-Market Agent Roster
+# Thesis-Market Agent Roster
 
-This folder defines the agent roles that collaborate to plan, build, evaluate, and operate the Vision-Market product.
+This folder defines the agent roles that collaborate to plan, build, evaluate, and operate the Thesis-Market product.
 
 Each agent file is a concise, actionable charter: mission, inputs, outputs, workflows, guardrails, and KPIs. Use these as system prompts or role specs in your orchestration layer.
 

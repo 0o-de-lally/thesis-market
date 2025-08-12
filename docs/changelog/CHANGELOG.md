@@ -36,7 +36,7 @@ This document is an append-only log of significant changes to the canonical prod
 **Date:** 2025-08-12
 **Document:** `/docs/strategy-brief/product-strategy.md`
 **Author:** `@product_strategy_agent`
-**Change:** Updated product strategy to clarify that Vision-Market is a specific application on Open Libra - a curated prediction market for megatrends in business and society. Added detailed description of how Vision-Market aligns with Open Libra's long-term value strategy by attracting deep thinking researchers and enabling participation in impactful themes. Expanded the Problem Statement to include OL's recruitment and incentive challenges (opportunistic free mining, low validator rewards, mercenary operators) and positioned Vision-Market—with purpose-built incentives—as a Schelling point for "see around corners" contributors.
+**Change:** Updated product strategy to clarify that Thesis-Market (formerly Vision-Market) is a specific application on Open Libra - a curated prediction market for megatrends in business and society. Added detailed description of how Thesis-Market aligns with Open Libra's long-term value strategy by attracting deep thinking researchers and enabling participation in impactful themes. Expanded the Problem Statement to include OL's recruitment and incentive challenges (opportunistic free mining, low validator rewards, mercenary operators) and positioned Thesis-Market—with purpose-built incentives—as a Schelling point for "see around corners" contributors.
 ---
 ---
 **Date:** 2025-08-12
@@ -48,11 +48,16 @@ This document is an append-only log of significant changes to the canonical prod
 **Date:** 2025-08-12
 **Document:** `/docs/strategy-brief/product-strategy.md`
 **Author:** `@product_strategy_agent`
-**Change:** Added section on OL's meta-endowment structure (donor-voice accounts), implications for recruiting qualified investment managers, and the role of Vision-Market as a funnel for high-signal contributors. Added related assumption and handoff to Market Intelligence for manager scan and evaluation criteria.
+**Change:** Added section on OL's meta-endowment structure (donor-voice accounts), implications for recruiting qualified investment managers, and the role of Thesis-Market as a funnel for high-signal contributors. Added related assumption and handoff to Market Intelligence for manager scan and evaluation criteria.
 ---
 ---
 **Date:** 2025-08-12
 **Document:** `/docs/strategy-brief/product-strategy.md`
 **Author:** `@product_strategy_agent`
 **Change:** Added "Truth sources & verification" section noting unverified claims about Open Libra and the need to import canonical docs (referenced external path not accessible). Assigned follow-up to Market Intelligence to verify and cite.
+---
+**Date:** 2025-08-12
+**Document:** `Project Rename`
+**Author:** `@product_strategy_agent`
+**Change:** Renamed product from "Vision-Market" to "Thesis-Market" and added tagline "for people with vision" to key docs (README.md, product-strategy.md, market-intelligence evidence pack, and .ai metadata). Historical entries maintain original naming where applicable.
 ---

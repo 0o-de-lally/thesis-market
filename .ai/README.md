@@ -1,6 +1,6 @@
 # .ai Directory
 
-This directory contains the operational assets for AI agents collaborating on the Vision-Market project.
+This directory contains the operational assets for AI agents collaborating on the Thesis-Market project.
 
 ## Contents
 

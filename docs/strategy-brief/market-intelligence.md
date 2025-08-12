@@ -1,8 +1,8 @@
 
-# Vision-Market — Market Intelligence Evidence Pack
+# Thesis-Market — Market Intelligence Evidence Pack
 
 **Topic:** Historical case studies on long-horizon forecasting, forecaster recruitment, and implications for a curated megatrend prediction market.
-**Prepared for:** Market Intelligence handoff (Vision-Market / Open Libra)
+**Prepared for:** Market Intelligence handoff (Thesis-Market / Open Libra)
 **Date:** 2025-08-12
 
 ---
@@ -43,7 +43,7 @@
 
 ---
 
-## Implications for Vision-Market (design takeaways)
+## Implications for Thesis-Market (design takeaways)
 
 1. **Use an open → invite pipeline.**
    Run frequent, shorter public questions to recruit and score participants; promote top performers to invite-only long-horizon cohorts (mirrors GJP funnel mechanics). ([Good Judgment Open][7])
@@ -109,7 +109,7 @@
 
 1. Pull 5–8 canonical papers/reports (GJP IARPA ACE materials, superforecasters PDF, HoTPP, Metaculus benchmarking paper, 1–2 replication/critique papers). (I’ve linked a starter set below.) ([iarpa.gov][6], [Good Judgment][1], [arXiv][3])
 2. Conduct 8–12 expert interviews (AI, biotech, macroeconomics) to test whether curated megatrend questions would attract them (script + incentive plan ready). ([Metaculus][10])
-3. Deliver a short gap analysis memo mapping Vision-Market design choices to long-horizon evaluation pitfalls (use HoTPP metrics as basis). ([arXiv][3])
+3. Deliver a short gap analysis memo mapping Thesis-Market design choices to long-horizon evaluation pitfalls (use HoTPP metrics as basis). ([arXiv][3])
 
 ---
 

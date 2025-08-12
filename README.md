@@ -1,6 +1,8 @@
-# Vision-Market
+# Thesis-Market
 
-**Vision-Market** is a project to... (briefly describe the project's purpose).
+for people with vision
+
+**Thesis-Market** is a project to... (briefly describe the project's purpose).
 
 This repository is designed to be highly accessible for both human and AI collaborators. It follows a standardized structure to ensure that all participants can easily locate resources, understand project status, and contribute effectively.
 
