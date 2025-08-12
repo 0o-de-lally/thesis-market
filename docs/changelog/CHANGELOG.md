@@ -28,3 +28,8 @@ This document is an append-only log of significant changes to the canonical prod
 **Author:** `@system`
 **Change:** Removed unnecessary directories and references: Removed ADR-related files and folders, data folder and associated files, notebooks, scripts, src, and tests directories. Updated README.md and agent charters to reflect the streamlined structure focused on strategic documentation and AI agent coordination.
 ---
+**Date:** 2025-08-12
+**Document:** `.ai Directory Simplification`
+**Author:** `@system`
+**Change:** Simplified .ai directory structure by removing unused subdirectories (context/, configs/, prompts/, tools/) and their associated documentation. All agent instructions and context are now consolidated within individual agent charters, eliminating duplication and reducing complexity.
+---
