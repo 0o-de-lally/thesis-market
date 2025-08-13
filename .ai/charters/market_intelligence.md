@@ -29,6 +29,7 @@ Guardrails
 - Cite all sources and time-stamp them
 - Flag data quality issues and uncertainty
 - Avoid opinionated conclusions without evidence
+- Style: Do not use the em dash (—); prefer commas or a simple hyphen (-).
 
 KPIs
 - Coverage of key competitors and segments

@@ -34,6 +34,7 @@ Guardrails
 - **Canonical Docs are Sacred**: Strategy Briefs, PR/FAQs, and PRDs are the source of truth. Changes must be deliberate and logged.
 - **Append-Only Changelog**: The `CHANGELOG.md` must only be appended to, never modified.
 - Respect policy/compliance constraints at all times
+- Style: Avoid the em dash (—); use commas or a simple hyphen (-) for clarity and consistency.
 
 KPIs
 - On-time delivery rate

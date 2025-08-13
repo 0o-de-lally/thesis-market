@@ -81,3 +81,33 @@ This document is an append-only log of significant changes to the canonical prod
 **Author:** `@product_strategy_agent`
 **Change:** Renamed product from "Vision-Market" to "Thesis-Market" and added tagline "for people with vision" to key docs (README.md, product-strategy.md, market-intelligence evidence pack, and .ai metadata). Historical entries maintain original naming where applicable.
 ---
+**Date:** 2025-08-13
+**Document:** `/docs/pr-faq/thesis-market-pr-faq.md`
+**Author:** `@product_strategy_agent`
+**Change:** Created initial Thesis-Market Press Release & FAQ (v0) including curated feature set, customer quote, KPI-focused success metrics, and explicit note separating aspirational future functionality from verified claims.
+---
+**Date:** 2025-08-13
+**Document:** `/docs/pr-faq/thesis-market-pr-faq.md`
+**Author:** `@product_strategy_agent`
+**Change:** Updated press release & FAQ to explicitly state varying-length prediction market bets (daily to multi-year) and added Multi-Horizon Forecast Ladder feature plus revised How It Works answer.
+---
+**Date:** 2025-08-13
+**Document:** `Global Agent Instructions`
+**Author:** `@product_strategy_agent`
+**Change:** Added stylistic guardrail "Do not use the em dash (—); use commas or a simple hyphen (-)" across PR/FAQ template, Thesis-Market PR/FAQ, product strategy, strategy brief templates, long-term strategy, and PRD template.
+---
+**Date:** 2025-08-13
+**Document:** `/docs/pr-faq/thesis-market-pr-faq.md`
+**Author:** `@product_strategy_agent`
+**Change:** Rewrote Press Release & FAQ (v1) to tighten active voice, remove em dashes, add measurable KPIs, clarify multi horizon structure, and simplify availability wording per updated agent instructions.
+---
+**Date:** 2025-08-13
+**Document:** `.ai/charters/*` & `.ai/README.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added style guardrail prohibiting em dash usage and specifying commas or hyphen as alternatives across all agent charters and .ai README.
+---
+**Date:** 2025-08-13
+**Document:** `/docs/pr-faq/thesis-market-pr-faq.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added validation paragraph referencing Polymarket, Kalshi, Good Judgment Project, and Metaculus plus a "Why now?" FAQ entry to ground market timing rationale.
+---

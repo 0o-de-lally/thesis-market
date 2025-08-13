@@ -2,6 +2,8 @@
 
 This directory contains the operational assets for AI agents collaborating on the Thesis-Market project.
 
+Style Note: Agent outputs should not use the em dash (—); use commas or a simple hyphen (-) instead.
+
 ## Contents
 
 - **charters/**: Defines the roles, capabilities, and instructions for each AI agent

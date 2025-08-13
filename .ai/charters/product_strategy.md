@@ -31,6 +31,7 @@ Guardrails
 - Evidence-based claims with citations; call out assumptions
 - Keep strategy simple, testable, and measurable
 - Clearly separate ambition from committed scope
+- Style: Do not use the em dash (—); prefer commas or a simple hyphen (-).
 
 KPIs
 - Clarity score (stakeholder survey)

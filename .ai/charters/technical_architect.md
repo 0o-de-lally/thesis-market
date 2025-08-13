@@ -29,6 +29,7 @@ Guardrails
 - Prefer simple, evolvable architecture
 - Document trade-offs and assumptions
 - Enforce least-privilege and data minimization
+- Style: Do not use the em dash (—); prefer commas or a simple hyphen (-).
 
 KPIs
 - Change lead time after technical decisions
