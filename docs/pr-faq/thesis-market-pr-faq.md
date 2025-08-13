@@ -16,6 +16,7 @@
 Thesis-Market lets people make probabilistic forecasts on a structured ladder: fast calibration prompts, medium milestone markets, and long horizon megatrend theses. Scoring, reasoning trails, and a simulation that maps forecast distributions into a shadow mandate help identify potential stewards for future donor voice capital.
 
 Real world validation exists: broad event markets on Polymarket (retail demand and rising volume) and regulated event contracts on Kalshi (CFTC framework) show sustained user appetite for real money forecasting, while curated platforms like the Good Judgment Project (superforecaster cohorts) and Metaculus (aggregation plus reasoning culture) demonstrate that structured screening and feedback can measurably improve accuracy. Thesis-Market combines these proven mechanics with a long horizon talent funnel.
+Participants who forecast accurately can profit from their positions, subject to platform rules and jurisdictional limits. Community wallets may sponsor bounties and periodic prize pools that amplify returns for the most consistent and well evidenced forecasters. Top forecasters are screened for potential participation in operating community wallet endowments.
 
 ## Key Features
 * **Curated Megatrend Set:** Only high impact, clearly resolvable themes (AI adoption, bio progress, energy transitions) to keep signal density high and reduce distraction.
@@ -23,6 +24,7 @@ Real world validation exists: broad event markets on Polymarket (retail demand a
 * **Transparent Reputation Ledger:** Timestamped forecasts scored with Brier and log metrics, plus reasoning notes, produce an objective performance dossier.
 * **Shadow Mandate Simulation:** System transforms probability distributions into a simulated thematic allocation so governance evaluators can review risk adjusted decision quality proxies.
 * **Delayed Reputation Weighted Payouts:** Reward structure favors sustained accuracy and timely updates over short term churn, reducing mercenary behavior.
+* **Community Wallet Bounties:** Optional sponsorship pools direct extra rewards and thematic prizes to high impact question sets and consistent top performers.
 * **Compliance First Access Controls:** Geo fencing, attestation, and anomaly detection reduce early regulatory exposure.
 
 ## Availability
@@ -38,7 +40,9 @@ Private design validation is in progress now. A limited alpha with screening que
 * **Q: Who is this product for?**
   * **A:** Serious forecasters, domain researchers in AI, bio, energy, macro, impact donors seeking talent signals, and prospective sub DAO stewards who want an evidence based track record.
 * **Q: How much does it cost?**
-  * **A:** Early screening participation is free except for minimal network fees. Later cohort and simulation features may require staking or bonded reputation once design validation completes.
+  * **A:** Early screening participation is free except for minimal network fees. You can profit from accurate forecast positions and earn additional bounty or prize rewards funded by community wallets. Later cohort and simulation features may require staking or bonded reputation once design validation completes.
+* **Q: How do payouts and bounties work?**
+  * **A:** Market resolution triggers settlement of forecast positions. A portion of incentive pools may be delayed and weighted by reputation. Separately, community wallets can escrow bounty allocations for specific markets or seasonal prize slates which distribute to the top calibrated and well evidenced forecasters after auditing.
 
 ## For Internal Stakeholders
 * **Q: What is the biggest risk to this project?**

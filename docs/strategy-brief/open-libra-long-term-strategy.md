@@ -24,3 +24,11 @@ The current blockchain landscape is dominated by general-purpose L1s competing t
 - Ecosystems that prioritize transaction volume over asset quality and longevity
 
 We solve this by creating a blockchain specifically designed around one core objective: making $LBR a valuable asset that compounds into perpetuity.
+
+## 2. Strategic Application Update (Thesis-Market – Aug 2025)
+Thesis-Market (curated prediction market) functions as a strategic attractor of high signal thinkers and a screening mechanism for future stewardship of community wallet endowments. Recent product strategy updates introduce:
+* Multi horizon forecast ladder (daily calibration, mid horizon milestones, multi year theses) to accelerate talent signal while building credible long term track records.
+* Community wallet bounties and prize pools that amplify returns for consistent high calibration forecasters and direct collective attention toward priority thematic questions.
+* Profit expectation with guardrails: Participants can profit from accurate positions, tempered by delayed and reputation weighted components to discourage pure short term churn.
+* External validation: Demand and methodology validated by Polymarket (retail demand), Kalshi (regulated pathways), Good Judgment Project (screened cohort accuracy), and Metaculus (curation plus reasoning culture). Thesis-Market differentiates by linking forecasting performance directly to endowment manager screening.
+These elements reinforce Open Libra’s philosophy by channeling economic and intellectual energy into activities that can compound durable $LBR value rather than undirected speculative throughput.

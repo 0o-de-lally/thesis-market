@@ -50,6 +50,29 @@ Without a Schelling point and purpose-built incentive design for high-signal con
 
 **Solution:** Thesis-Market on Open Libra creates a curated prediction market focused on megatrends, attracting thoughtful participants while contributing to $LBR's long-term value through meaningful economic activity and expert knowledge aggregation. With purpose-built rewards and incentives, Thesis-Market can become OL's Schelling point for people who can "see around corners."
 
+### Market Validation & Differentiation (Aug 2025)
+External platforms validate sustained demand for prediction markets and structured forecasting:
+* Polymarket shows broad retail appetite for event driven real money markets (volume growth and continuous question turnover) while surfacing UX and regulatory trade off lessons.
+* Kalshi operates within a regulated CFTC framework, signaling maturing compliance pathways for certain event contracts.
+* Good Judgment Project (superforecaster cohorts) demonstrates that screening, feedback, and aggregation can raise accuracy relative to baselines.
+* Metaculus illustrates the value of curated reasoning culture and transparent resolution history for community retention and signal extraction.
+Differentiation: Thesis-Market combines a multi horizon megatrend focus (daily calibration to multi year theses), explicit talent funnel for endowment stewardship, and community wallet bounty amplification, rather than optimizing purely for breadth of short term events or generic tournament ranking.
+
+### Multi Horizon Forecast Ladder
+Purpose: Accelerate talent discovery while building credible long horizon track records.
+Layers:
+1. Fast Calibration: Daily or weekly binary or scaled prompts aligned with underlying megatrend drivers (1 to 30 day resolution) to quickly measure baseline calibration and update discipline.
+2. Mid Horizon Milestones: Thematic questions (3 to 18 months) that decompose multi year theses into observable checkpoints (adoption metrics, regulatory milestones, scientific trial phases).
+3. Long Horizon Theses: Structured multi year markets (5 to 10 year resolution definitions) requiring scenario trees and reasoning artifacts.
+Mechanics:
+* Promotion thresholds tie short and mid horizon performance and reasoning quality rubrics to long horizon access invites.
+* Cross horizon linkage: Mid horizon milestones automatically reference the parent long horizon thesis ID for traceability.
+* Data model implication: Forecast table needs horizon_type enum and parent_thesis_id foreign key for milestone linkage.
+Intended Outcomes:
+* Faster signal on forecaster discipline without waiting years.
+* Higher quality reasoning corpus feeding manager screening.
+* Reduced noise by filtering long horizon access to proven calibrated participants.
+
 ## OL Meta-Endowment Structure (Donor-Voice Accounts)
 
 OL operates "donor-voice-accounts" as perpetual endowments that donors can monitor over time. In the medium term, OL must identify and onboard qualified investment managers for these endowments so that, in the long run, the collective capital is allocated to sensible, forward-looking, high-impact opportunities aligned with OL themes and $LBR value.
@@ -88,12 +111,16 @@ Incentive & Safeguard Design:
 - Reputation Staking: Managers bond a portion of accrued reputation tokens, slashable for misconduct (misreporting, manipulation attempts).
 - Dual Layer Rewards: (a) Forecast accuracy & reasoning quality, (b) Shadow mandate performance alignment with declared risk policy.
 - Collusion Resistance: Market curation + anomaly detection on correlated improbable forecast shifts; mandatory disclosure of external conflicts.
+- Community Wallet Bounties & Prizes: Community-controlled wallets (e.g., donor-voice aligned pools) can sponsor themed market bounties and seasonal prize allocations, amplifying returns for consistently high calibration forecasters and accelerating talent discovery.
+- Profit Expectation: Forecasters are economically motivated; accurate positions can yield profit subject to jurisdictional constraints. Reputation weighting and delayed components temper pure short term speculation.
+ - Multi Horizon Integrity: Prevent horizon gaming (inflating short term performance without meaningful long term participation) by requiring minimum active long horizon thesis commitments and penalizing abandonment rates in reputation scoring.
 
 Key Metrics (Manager Funnel):
 - High-signal forecasters discovered per quarter (target v1: 50; manager-track candidates: 5–10).
 - Cross-domain calibration stability (std dev of Brier across clusters).
 - Shadow mandate tracking error vs benchmark thematic indices.
 - Conversion rate: Invite Cohort → Manager Nomination.
+- Bounty Amplification Efficiency: Additional high-signal forecasters discovered per bounty dollar vs baseline discovery rate.
 
 Next Actions (Handoffs):
 - Market Intelligence: Define thematic cluster taxonomy & baseline benchmarks for cross-domain calibration analysis.
@@ -120,6 +147,7 @@ Next Actions (Handoffs):
 - To Market Intelligence: develop evidence pack for assumptions above; propose initial megatrend categories and example markets.
 - To Technical Architect: outline minimal architecture for curated markets, reputation ledger, payout scheduling, and anti-Sybil controls; note constraints from low validator rewards.
 - To Market Intelligence (endowments): scan for qualified impact/forward-looking investment managers and define evaluation criteria; assess whether prediction-market performance correlates with investment decision quality.
+- To Product Strategy (bounties): design governance-lite process for community wallet bounty proposals, escrow, and transparent post-resolution distribution audit.
 
 ## Regulatory & Geo-Fencing Requirements
 Purpose: Reduce regulatory exposure in jurisdictions where curated prediction markets could be interpreted as unregistered event-based derivatives or contract markets.

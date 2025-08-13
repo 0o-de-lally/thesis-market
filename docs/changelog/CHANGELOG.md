@@ -111,3 +111,23 @@ This document is an append-only log of significant changes to the canonical prod
 **Author:** `@product_strategy_agent`
 **Change:** Added validation paragraph referencing Polymarket, Kalshi, Good Judgment Project, and Metaculus plus a "Why now?" FAQ entry to ground market timing rationale.
 ---
+**Date:** 2025-08-13
+**Document:** `/docs/pr-faq/thesis-market-pr-faq.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added profit expectation, community wallet bounty/prize mechanisms, payout and bounty FAQ, and screening linkage to endowment operation participation.
+---
+**Date:** 2025-08-13
+**Document:** `/docs/strategy-brief/product-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added Community Wallet Bounties & Prizes, Profit Expectation to Incentive & Safeguard Design, new bounty efficiency metric, and bounty governance handoff.
+---
+**Date:** 2025-08-13
+**Document:** `/docs/strategy-brief/product-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added Market Validation & Differentiation section (Polymarket, Kalshi, Good Judgment Project, Metaculus), Multi Horizon Forecast Ladder section, and horizon integrity safeguard.
+---
+**Date:** 2025-08-13
+**Document:** `/docs/strategy-brief/open-libra-long-term-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added Strategic Application Update summarizing Thesis-Market multi horizon ladder, community wallet bounties, profit expectation, external validation, and differentiation linkage to $LBR compounding philosophy.
+---
