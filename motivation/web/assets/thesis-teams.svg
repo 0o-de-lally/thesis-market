@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+    <!-- Thesis Teams - Hand-drawn connected people -->
+    <defs>
+        <filter id="wash2">
+            <feTurbulence baseFrequency="0.05" numOctaves="2" result="noise"/>
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.2"/>
+        </filter>
+    </defs>
+    
+    <!-- Central connection circle (wash) -->
+    <circle cx="32.1" cy="31.8" r="23.5" fill="#3b82f6" opacity="0.15" filter="url(#wash2)"/>
+    
+    <!-- Central connection circle (outline) -->
+    <path d="M8.2 32 Q8.1 31.8 8.5 31.9 Q24 8.2 32.1 8.1 Q40.2 8.0 55.8 31.7 Q56.1 31.9 55.9 32.2 Q40.3 55.9 32.2 55.8 Q24.1 55.9 8.5 32.3 Q8.2 32.2 8.2 32 Z" 
+          fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="3,2" stroke-linecap="round"/>
+    
+    <!-- Team members (hand-drawn circles) -->
+    <circle cx="32.1" cy="16.2" r="5.8" fill="#3b82f6" opacity="0.6" filter="url(#wash2)"/>
+    <path d="M26.5 16.1 Q26.3 15.9 26.7 16.0 Q32.0 10.2 32.2 10.1 Q32.4 10.0 37.7 15.9 Q38.1 16.1 37.9 16.4 Q32.6 22.2 32.4 22.3 Q32.2 22.4 26.9 16.5 Q26.5 16.3 26.5 16.1 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+    
+    <circle cx="47.8" cy="28.1" r="5.7" fill="#3b82f6" opacity="0.6" filter="url(#wash2)"/>
+    <path d="M42.3 28.0 Q42.1 27.8 42.5 27.9 Q47.7 22.1 47.9 22.0 Q48.1 21.9 53.3 27.8 Q53.7 28.0 53.5 28.3 Q48.3 34.1 48.1 34.2 Q47.9 34.3 42.7 28.4 Q42.3 28.2 42.3 28.0 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+    
+    <circle cx="43.9" cy="43.8" r="5.9" fill="#3b82f6" opacity="0.6" filter="url(#wash2)"/>
+    <path d="M38.2 43.7 Q38.0 43.5 38.4 43.6 Q43.8 37.8 44.0 37.7 Q44.2 37.6 49.6 43.5 Q50.0 43.7 49.8 44.0 Q44.4 49.8 44.2 49.9 Q44.0 50.0 38.6 44.1 Q38.2 43.9 38.2 43.7 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+    
+    <circle cx="20.1" cy="43.9" r="5.6" fill="#3b82f6" opacity="0.6" filter="url(#wash2)"/>
+    <path d="M14.7 43.8 Q14.5 43.6 14.9 43.7 Q20.0 37.9 20.2 37.8 Q20.4 37.7 25.5 43.6 Q25.9 43.8 25.7 44.1 Q20.6 49.9 20.4 50.0 Q20.2 50.1 15.1 44.2 Q14.7 44.0 14.7 43.8 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+    
+    <circle cx="16.2" cy="28.0" r="5.8" fill="#3b82f6" opacity="0.6" filter="url(#wash2)"/>
+    <path d="M10.6 27.9 Q10.4 27.7 10.8 27.8 Q16.1 22.0 16.3 21.9 Q16.5 21.8 21.8 27.7 Q22.2 27.9 22.0 28.2 Q16.7 34.0 16.5 34.1 Q16.3 34.2 11.0 28.3 Q10.6 28.1 10.6 27.9 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+    
+    <!-- Connection lines (sketchy) -->
+    <path d="M32.0 22.1 Q37.2 24.8 42.1 28.2" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M42.3 34.0 Q43.1 38.9 38.2 43.6" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M38.1 43.9 Q29.0 43.7 26.0 43.8" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M20.2 38.1 Q18.9 33.8 22.1 28.3" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <path d="M22.0 28.1 Q27.0 23.9 26.9 22.0" stroke="#1e293b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Center thesis indicator -->
+    <circle cx="32.0" cy="32.1" r="3.8" fill="#fbbf24" opacity="0.8" filter="url(#wash2)"/>
+    <path d="M28.4 32.0 Q28.2 31.8 28.6 31.9 Q31.9 28.1 32.1 28.0 Q32.3 27.9 35.6 31.8 Q36.0 32.0 35.8 32.3 Q32.5 36.1 32.3 36.2 Q32.1 36.3 28.8 32.4 Q28.4 32.2 28.4 32.0 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.5" stroke-linejoin="round"/>
+    
+    <!-- T letter (hand-drawn) -->
+    <path d="M29.5 30.5 Q29.3 30.3 29.7 30.4 L34.4 30.6 Q34.8 30.5 34.7 30.9 Q34.5 31.1 34.1 31.0 L32.9 31.0 L32.8 33.7 Q32.9 34.1 32.5 34.0 Q32.1 34.1 32.2 33.7 L32.1 31.0 L30.9 30.9 Q29.7 31.0 29.5 30.5 Z" 
+          fill="#1e293b"/>
+</svg>

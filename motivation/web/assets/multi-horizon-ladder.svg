@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+    <!-- Multi-Horizon Ladder - Hand-drawn stepped timeline -->
+    <defs>
+        <filter id="wash5">
+            <feTurbulence baseFrequency="0.05" numOctaves="2" result="noise"/>
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="1"/>
+        </filter>
+    </defs>
+    
+    <!-- Time blocks (hand-drawn) -->
+    <!-- 1 Week block -->
+    <path d="M7.9 47.8 Q8.1 47.6 8.5 47.7 L19.8 48.1 Q20.2 48.0 20.1 48.4 L20.0 55.7 Q20.1 56.1 19.7 56.0 L8.4 55.6 Q8.0 55.7 8.1 55.3 L8.2 48.0 Q8.1 47.6 7.9 47.8 Z" 
+          fill="#fbbf24" opacity="0.7" filter="url(#wash5)"/>
+    <path d="M8.1 48.0 Q8.0 47.8 8.3 47.9 L19.7 48.3 Q20.0 48.2 19.9 48.5 L19.8 55.6 Q19.9 55.9 19.6 55.8 L8.2 55.4 Q7.9 55.5 8.0 55.2 L8.1 48.1 Q8.0 47.7 8.1 48.0 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="14.1" y="52.8" text-anchor="middle" fill="#1e293b" font-size="5" font-weight="bold">1W</text>
+    
+    <!-- 6 Month block -->
+    <path d="M25.8 35.7 Q26.0 35.5 26.4 35.6 L37.9 36.0 Q38.3 35.9 38.2 36.3 L38.1 43.8 Q38.2 44.2 37.8 44.1 L26.3 43.7 Q25.9 43.8 26.0 43.4 L26.1 36.0 Q26.0 35.6 25.8 35.7 Z" 
+          fill="#3b82f6" opacity="0.7" filter="url(#wash5)"/>
+    <path d="M26.0 36.0 Q25.9 35.8 26.2 35.9 L37.8 36.3 Q38.1 36.2 38.0 36.5 L37.9 43.7 Q38.0 44.0 37.7 43.9 L26.1 43.5 Q25.8 43.6 25.9 43.3 L26.0 36.2 Q25.9 35.8 26.0 36.0 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="32.0" y="40.7" text-anchor="middle" fill="#ffffff" font-size="5" font-weight="bold">6M</text>
+    
+    <!-- 5 Year block -->
+    <path d="M43.9 23.8 Q44.1 23.6 44.5 23.7 L55.8 24.1 Q56.2 24.0 56.1 24.4 L56.0 31.7 Q56.1 32.1 55.7 32.0 L44.4 31.6 Q44.0 31.7 44.1 31.3 L44.2 24.1 Q44.1 23.7 43.9 23.8 Z" 
+          fill="#3b82f6" opacity="0.7" filter="url(#wash5)"/>
+    <path d="M44.1 24.1 Q44.0 23.9 44.3 24.0 L55.7 24.4 Q56.0 24.3 55.9 24.6 L55.8 31.6 Q55.9 31.9 55.6 31.8 L44.2 31.4 Q43.9 31.5 44.0 31.2 L44.1 24.3 Q44.0 23.9 44.1 24.1 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.8" stroke-linejoin="round"/>
+    <text x="50.0" y="28.8" text-anchor="middle" fill="#ffffff" font-size="5" font-weight="bold">5Y</text>
+    
+    <!-- Connecting arrows (hand-drawn) -->
+    <path d="M20.1 51.8 Q20.0 51.6 20.2 51.7 Q25.7 48.2 25.9 48.1" 
+          stroke="#fbbf24" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M24.2 46.1 Q24.0 45.9 24.3 46.0 L25.8 47.9 Q26.0 48.1 25.7 48.3 L24.2 50.2 Q24.0 50.4 24.2 50.1" 
+          stroke="#fbbf24" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    
+    <path d="M38.0 39.9 Q37.9 39.7 38.1 39.8 Q43.6 36.3 43.8 36.2" 
+          stroke="#fbbf24" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    <path d="M42.1 34.2 Q41.9 34.0 42.2 34.1 L43.7 35.9 Q43.9 36.1 43.6 36.3 L42.1 38.1 Q41.9 38.3 42.1 38.0" 
+          stroke="#fbbf24" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Growth chart overlay (hand-drawn line) -->
+    <path d="M14.2 20.1 Q14.1 19.9 14.3 20.0 Q31.8 16.3 32.0 16.2 Q32.2 16.1 49.7 12.4 Q49.9 12.3 50.1 12.5" 
+          fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Data points (hand-drawn) -->
+    <circle cx="14.1" cy="20.2" r="1.8" fill="#fbbf24" opacity="0.8" filter="url(#wash5)"/>
+    <path d="M12.4 20.1 Q12.2 19.9 12.6 20.0 Q14.0 18.2 14.2 18.1 Q14.4 18.0 15.8 19.9 Q16.2 20.1 16.0 20.4 Q14.6 22.2 14.4 22.3 Q14.2 22.4 12.8 20.5 Q12.4 20.3 12.4 20.1 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.2"/>
+    
+    <circle cx="32.1" cy="16.1" r="1.9" fill="#fbbf24" opacity="0.8" filter="url(#wash5)"/>
+    <path d="M30.3 16.0 Q30.1 15.8 30.5 15.9 Q32.0 14.1 32.2 14.0 Q32.4 13.9 33.9 15.8 Q34.3 16.0 34.1 16.3 Q32.6 18.1 32.4 18.2 Q32.2 18.3 30.7 16.4 Q30.3 16.2 30.3 16.0 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.2"/>
+    
+    <circle cx="50.0" cy="12.2" r="1.8" fill="#fbbf24" opacity="0.8" filter="url(#wash5)"/>
+    <path d="M48.3 12.1 Q48.1 11.9 48.5 12.0 Q49.9 10.2 50.1 10.1 Q50.3 10.0 51.7 11.9 Q52.1 12.1 51.9 12.4 Q50.5 14.2 50.3 14.3 Q50.1 14.4 48.7 12.5 Q48.3 12.3 48.3 12.1 Z" 
+          fill="none" stroke="#1e293b" stroke-width="1.2"/>
+    
+    <!-- Reputation meter (hand-drawn) -->
+    <path d="M7.9 7.8 Q8.1 7.6 8.5 7.7 L55.8 8.1 Q56.2 8.0 56.1 8.4 L56.0 11.7 Q56.1 12.1 55.7 12.0 L8.4 11.6 Q8.0 11.7 8.1 11.3 L8.2 8.0 Q8.1 7.6 7.9 7.8 Z" 
+          fill="#1e293b" opacity="0.3" filter="url(#wash5)"/>
+    <path d="M8.1 8.0 Q8.0 7.8 8.3 7.9 L43.7 8.3 Q44.0 8.2 43.9 8.5 L43.8 11.6 Q43.9 11.9 43.6 11.8 L8.2 11.4 Q7.9 11.5 8.0 11.2 L8.1 8.1 Q8.0 7.7 8.1 8.0 Z" 
+          fill="#fbbf24" opacity="0.8" stroke="#1e293b" stroke-width="1.2"/>
+</svg>
