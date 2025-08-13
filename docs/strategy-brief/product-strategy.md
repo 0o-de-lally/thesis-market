@@ -58,6 +58,48 @@ Implications:
 - The business strategy is simple, but today’s primary constraint is recruiting: we historically attracted casual infrastructure "miners," not visionary thinkers and disciplined managers.
 - Thesis-Market can serve as a discovery funnel for high-signal contributors whose demonstrated foresight (over megatrend markets) can inform manager recruitment and mandate design.
 
+## Talent Attraction & Sub-DAO Manager Funnel
+
+Purpose: Convert high-signal, lateral-thinking forecasters into candidates to steward donor-voice endowment sub-DAOs.
+
+Why a curated prediction market attracts them:
+- Cognitive Challenge Density: Carefully scoped, high-ambiguity, cross-domain megatrend markets create an intellectual arena that rewards synthesis over rote pattern chasing.
+- Reputation as Portable Capital: A transparent, cryptographically timestamped forecast + reasoning trail acts as a public performance dossier more credible than self-reported credentials.
+- Non-Commodity Incentives: Delayed, reputation-weighted payouts plus access to invitation-only long-horizon markets appeal to intrinsically motivated, status-sensitive thinkers rather than extractive mercenaries.
+- Narrative Surface Area: Commentary threads and thesis articulation allow unconventional frameworks (second-order effects, systems thinking) to be surfaced and evaluated.
+- Anti-Noise Curation: By excluding trivial/short-horizon hype markets, signal density stays high—this reduces opportunity cost for serious thinkers.
+
+Signals that map to sub-DAO manager potential:
+- Cross-Domain Correlation: Consistent above-median calibration across at least 3 distinct thematic clusters (e.g., AI, macro, bio).
+- Thesis Quality Metrics: Peer-reviewed reasoning notes scoring high on clarity, falsifiability, and alternative scenario enumeration.
+- Adversarial Robustness: Low degradation of forecast accuracy when confronted with stress-test prompts or counter-theses.
+- Time-to-Revision Discipline: Timely Bayesian updates following new public information; penalize anchoring inertia.
+- Portfolio Construction Proxy: Simulated capital allocation game (shadow portfolio) fed by their probability distributions vs realized outcomes.
+
+Funnel Stages:
+1. Open Screening Layer: Broad megatrend micro-questions (1–6 month horizon) to collect baseline calibration & reasoning samples.
+2. Performance Triage: Automated scoring (Brier/log), variance normalization, cluster analysis to identify multi-domain strength.
+3. Invite Cohort (Long-Horizon Track): Access to 5–10 year structured markets with mandatory thesis write-ups & scenario trees.
+4. Shadow Mandate Simulation: Candidates manage a paper endowment allocation informed by their forecasts; tracked on risk-adjusted return proxies (information ratio analog using forecast deltas → simulated positions).
+5. Governance Evaluation: Lightweight interviews + peer review of risk management memos and steward principles.
+6. Sub-DAO Nomination: Top performers graduate to on-chain signaling vote for provisional manager roles with staged capital unlock.
+
+Incentive & Safeguard Design:
+- Reputation Staking: Managers bond a portion of accrued reputation tokens, slashable for misconduct (misreporting, manipulation attempts).
+- Dual Layer Rewards: (a) Forecast accuracy & reasoning quality, (b) Shadow mandate performance alignment with declared risk policy.
+- Collusion Resistance: Market curation + anomaly detection on correlated improbable forecast shifts; mandatory disclosure of external conflicts.
+
+Key Metrics (Manager Funnel):
+- High-signal forecasters discovered per quarter (target v1: 50; manager-track candidates: 5–10).
+- Cross-domain calibration stability (std dev of Brier across clusters).
+- Shadow mandate tracking error vs benchmark thematic indices.
+- Conversion rate: Invite Cohort → Manager Nomination.
+
+Next Actions (Handoffs):
+- Market Intelligence: Define thematic cluster taxonomy & baseline benchmarks for cross-domain calibration analysis.
+- Technical Architect: Specify data model for forecast → shadow portfolio transformation & reputation staking mechanism.
+- Product Strategy: Draft manager qualification rubric & publish evaluation transparency guidelines.
+
 ## Assumptions & Evidence Status
 - Prediction markets can reliably surface private information and identify expert forecasters over long horizons. [Assumption → Market Intelligence to validate]
 - Curated, theme-based markets will attract deep-thinking researchers more than open, short-term event markets. [Assumption → Market Intelligence to test with interviews/history]

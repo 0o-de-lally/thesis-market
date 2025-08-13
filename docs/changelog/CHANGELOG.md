@@ -56,6 +56,11 @@ This document is an append-only log of significant changes to the canonical prod
 **Author:** `@product_strategy_agent`
 **Change:** Added "Truth sources & verification" section noting unverified claims about Open Libra and the need to import canonical docs (referenced external path not accessible). Assigned follow-up to Market Intelligence to verify and cite.
 ---
+**Date:** 2025-08-13
+**Document:** `/docs/strategy-brief/product-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added "Talent Attraction & Sub-DAO Manager Funnel" section detailing mechanisms by which the curated prediction market draws lateral thinkers and converts them into sub-DAO manager candidates; defined funnel stages, signals, metrics, and handoffs.
+---
 **Date:** 2025-08-12
 **Document:** `Project Rename`
 **Author:** `@product_strategy_agent`
