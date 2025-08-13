@@ -131,3 +131,13 @@ This document is an append-only log of significant changes to the canonical prod
 **Author:** `@product_strategy_agent`
 **Change:** Added Strategic Application Update summarizing Thesis-Market multi horizon ladder, community wallet bounties, profit expectation, external validation, and differentiation linkage to $LBR compounding philosophy.
 ---
+**Date:** 2025-08-13
+**Document:** `/docs/pr-faq/thesis-market-pr-faq.md`
+**Author:** `@product_strategy_agent`
+**Change:** Revised opening paragraph to lead with value hook (proof of judgment over noise) before product mechanics; maintained style rule (no em dash).
+---
+**Date:** 2025-08-13
+**Document:** `/docs/pr-faq/thesis-market-pr-faq.md`
+**Author:** `@product_strategy_agent`
+**Change:** Replaced press release and FAQ body with structured "Press & Stakeholder Release" version (Why Now, How It Works, Key Features, Availability) reflecting multi horizon framing; ensured removal of em dashes per style guardrail.
+---

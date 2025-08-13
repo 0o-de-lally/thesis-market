@@ -9,54 +9,86 @@
 
 **FOR IMMEDIATE RELEASE**
 
-**Remote - 2025-08-13** - Open Libra today announced Thesis-Market, a curated prediction market that converts judgment across daily to multi year horizons into a transparent reputation signal. For researchers, analysts, prospective donor voice endowment manager candidates, and aligned donors who struggle to tell signal from noise, Thesis-Market offers a focused place to test and prove foresight on important themes.
+## Thesis-Market Press & Stakeholder Release
+
+**Remote - 2025-08-13**
+
+Open Libra today announced Thesis-Market, a curated, multi horizon prediction market that converts forecasting accuracy into a visible, portable reputation signal. It is built for researchers, analysts, prospective donor voice endowment stewards, and aligned donors who need proof of judgment, not noise.
 
 "I wanted a venue that rewards clear, testable long term theses instead of hot takes. Thesis-Market finally channels deep research into a portable track record," said Elena M., Independent Macro Researcher.
 
-Thesis-Market lets people make probabilistic forecasts on a structured ladder: fast calibration prompts, medium milestone markets, and long horizon megatrend theses. Scoring, reasoning trails, and a simulation that maps forecast distributions into a shadow mandate help identify potential stewards for future donor voice capital.
+### Why Now
 
-Real world validation exists: broad event markets on Polymarket (retail demand and rising volume) and regulated event contracts on Kalshi (CFTC framework) show sustained user appetite for real money forecasting, while curated platforms like the Good Judgment Project (superforecaster cohorts) and Metaculus (aggregation plus reasoning culture) demonstrate that structured screening and feedback can measurably improve accuracy. Thesis-Market combines these proven mechanics with a long horizon talent funnel.
-Participants who forecast accurately can profit from their positions, subject to platform rules and jurisdictional limits. Community wallets may sponsor bounties and periodic prize pools that amplify returns for the most consistent and well evidenced forecasters. Top forecasters are screened for potential participation in operating community wallet endowments.
+Serious forecasting demand is proven:
+* Polymarket - surging retail participation
+* Kalshi - CFTC approved event contracts
+* Good Judgment Project - accuracy gains in curated superforecaster cohorts
+* Metaculus - aggregation plus reasoning culture improves signal quality
+
+Thesis-Market brings these mechanics together for the missing piece: a purpose built long horizon venue that doubles as a talent discovery tool for governance and donor capital allocation.
+
+### How It Works
+
+Participants make probabilistic forecasts across three horizons:
+* Fast Calibration - quick questions for instant feedback
+* Milestone Markets - medium term thematic checkpoints
+* Megatrend Theses - years long forecasts on high impact trends
+
+Forecasts are timestamped, scored (Brier and log metrics), and stored with reasoning notes to build a transparent dossier of foresight quality.
+
+Example: A forecaster predicts global AI model training costs will drop 80% by 2030. Short term GPU price markets and medium term model scale checkpoints track progress, while the 2030 megatrend market resolves the thesis and produces a verified performance record.
 
 ## Key Features
-* **Curated Megatrend Set:** Only high impact, clearly resolvable themes (AI adoption, bio progress, energy transitions) to keep signal density high and reduce distraction.
-* **Multi Horizon Forecast Ladder:** Daily or weekly calibration questions shorten feedback loops and feed into medium and long horizon markets, speeding discovery of high calibration forecasters.
-* **Transparent Reputation Ledger:** Timestamped forecasts scored with Brier and log metrics, plus reasoning notes, produce an objective performance dossier.
-* **Shadow Mandate Simulation:** System transforms probability distributions into a simulated thematic allocation so governance evaluators can review risk adjusted decision quality proxies.
-* **Delayed Reputation Weighted Payouts:** Reward structure favors sustained accuracy and timely updates over short term churn, reducing mercenary behavior.
-* **Community Wallet Bounties:** Optional sponsorship pools direct extra rewards and thematic prizes to high impact question sets and consistent top performers.
-* **Compliance First Access Controls:** Geo fencing, attestation, and anomaly detection reduce early regulatory exposure.
+* Curated Megatrends - Only high impact, clearly resolvable themes (AI adoption, bio progress, energy transitions)
+* Multi Horizon Ladder - Short, medium, and long term markets connect early calibration to final outcomes
+* Transparent Reputation Ledger - Timestamped forecasts with public reasoning build credibility
+* Shadow Mandate Simulation - Forecast distributions map to a simulated thematic allocation for governance insight
+* Delayed, Reputation Weighted Payouts - Rewards favor consistent accuracy over quick churn
+* Community Wallet Bounties - Sponsored prize pools amplify returns for top performers
+* Compliance First Access - Geo fencing, attestation, and anomaly detection reduce early regulatory risk
 
 ## Availability
-Private design validation is in progress now. A limited alpha with screening questions plus six pilot megatrend markets targets Q4 2025. An open screening waitlist is collecting interest today. Repository updates will announce dates and access steps.
+* Private design validation - in progress now
+* Limited alpha (Q4 2025) - six pilot megatrend markets, invite based
+* Waitlist open today - repository updates will announce access steps
 
 ---
 
-# FAQ (Frequently Asked Questions)
+# FAQ
 
 ## For Customers
-* **Q: How does Thesis-Market work?**
-  * **A:** You post probability forecasts across short, medium, and long horizons. The system timestamps and scores each forecast. Your calibration, update discipline, and reasoning notes build a public reputation, and top performers join invite only long horizon cohorts plus the shadow mandate simulation.
-* **Q: Who is this product for?**
-  * **A:** Serious forecasters, domain researchers in AI, bio, energy, macro, impact donors seeking talent signals, and prospective sub DAO stewards who want an evidence based track record.
-* **Q: How much does it cost?**
-  * **A:** Early screening participation is free except for minimal network fees. You can profit from accurate forecast positions and earn additional bounty or prize rewards funded by community wallets. Later cohort and simulation features may require staking or bonded reputation once design validation completes.
-* **Q: How do payouts and bounties work?**
-  * **A:** Market resolution triggers settlement of forecast positions. A portion of incentive pools may be delayed and weighted by reputation. Separately, community wallets can escrow bounty allocations for specific markets or seasonal prize slates which distribute to the top calibrated and well evidenced forecasters after auditing.
+
+**How does Thesis-Market work?**
+Post probability forecasts across short, medium, and long horizons. The system scores them and tracks update discipline plus reasoning. Top performers join invite only long horizon cohorts and the shadow mandate simulation.
+
+**Who is it for?**
+Forecasters, researchers in AI, bio, energy, macro, impact donors seeking talent signals, and prospective governance stewards.
+
+**How much does it cost?**
+Early participation is free (plus network fees). Profits from correct forecasts and community funded bounties are possible. Some later features may require staking or bonded reputation.
+
+**How do payouts work?**
+Markets resolve and settle positions. Incentives may be delayed and weighted by reputation. Bounties and prizes distribute after audit.
 
 ## For Internal Stakeholders
-* **Q: What is the biggest risk to this project?**
-  * **A:** Insufficient early forecaster quality and diversity. Without enough high calibration participants scores dilute and talent signals weaken. Mitigation: open to invite funnel, short horizon calibration layer, and delayed reputation weighted incentives.
-* **Q: Why now?**
-  * **A:** Market demand for predictive markets is validated by growth and regulatory milestones (Polymarket usage, Kalshi approvals) and accuracy uplift has been shown in curated environments (Good Judgment Project, Metaculus). The gap remains a purpose built multi horizon megatrend venue that converts forecasting performance into a governance and manager discovery signal.
-* **Q: How does this fit into overall strategy?**
-  * **A:** It creates a Schelling point that attracts high signal thinkers whose demonstrated judgment can inform donor voice endowment stewardship, aligning activity with long term $LBR value.
-* **Q: What resources are required for v0?**
-  * **A:** 1 product lead, 1 technical architect, 2 full stack engineers, fractional compliance counsel, market intelligence support for question sourcing. Data science scaling contingent on hitting 1,000 screening forecasts and 50 high signal profiles.
-* **Q: How will we measure initial success?**
-  * **A:** KPIs: 1,000 screening participants, 50 high signal multi domain forecasters, 70 percent three month retention for invite cohort, evidence that reputation weighted payouts reduce churn versus flat payouts (tracked via revision cadence and abandonment rate).
-* **Q: Which assumptions remain open?**
-  * **A:** Effectiveness of the shadow mandate as a proxy for manager quality, transferability of calibration across domains, and optimal delay and weight parameters for payouts. All tracked in `research-backlog.md`.
+
+**Biggest Risk**
+Low early participant quality, mitigated via calibration layer, invite funnel, and delayed payout incentives.
+
+**Strategic Fit**
+Creates a Schelling point to identify high signal thinkers for donor capital stewardship, aligning with long term $LBR value.
+
+**Resources for v0**
+1 product lead, 1 technical architect, 2 full stack engineers, fractional compliance counsel, and market intelligence support for question sourcing.
+
+**Initial KPIs**
+* 1,000 screening participants
+* 50 high signal forecasters across domains
+* 70% retention over 3 months for invite cohort
+* Reduced churn versus flat payouts (revision cadence)
+
+**Open Assumptions**
+Shadow mandate validity, cross domain calibration transfer, and optimal payout delay and weight parameters (tracked in `research-backlog.md`).
 
 ---
-*Note:* Future functionality (for example, direct donor voice endowment integration) is aspirational pending verification and compliance review. No unverified operational claims are asserted.
+*Important Information:* Future features (for example, direct donor voice endowment integration) are aspirational pending verification and compliance review. No unverified operational claims are asserted.
