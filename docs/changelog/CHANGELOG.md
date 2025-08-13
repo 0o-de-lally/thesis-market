@@ -61,6 +61,21 @@ This document is an append-only log of significant changes to the canonical prod
 **Author:** `@product_strategy_agent`
 **Change:** Added "Talent Attraction & Sub-DAO Manager Funnel" section detailing mechanisms by which the curated prediction market draws lateral thinkers and converts them into sub-DAO manager candidates; defined funnel stages, signals, metrics, and handoffs.
 ---
+**Date:** 2025-08-13
+**Document:** `/docs/strategy-brief/open-libra-long-term-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Reverted document to concise form (strategic philosophy + core problem statement) removing expanded audience, pillars, metrics sections due to unverifiable/confabulatory risk; intent is to keep canonical long-term brief minimal.
+---
+**Date:** 2025-08-13
+**Document:** `/docs/strategy-brief/market-intelligence.md` & `/docs/strategy-brief/research-backlog.md`
+**Author:** `@market_intelligence_agent`
+**Change:** Added Conclusions section summarizing evidence-based findings; created `research-backlog.md` enumerating open assumptions with IDs, priorities, acceptance criteria, and next 7-day focus.
+---
+**Date:** 2025-08-13
+**Document:** `/docs/strategy-brief/product-strategy.md`
+**Author:** `@product_strategy_agent`
+**Change:** Added Regulatory & Geo-Fencing Requirements section outlining jurisdictional access controls, attestation, evasion safeguards, technical implications, and next actions.
+---
 **Date:** 2025-08-12
 **Document:** `Project Rename`
 **Author:** `@product_strategy_agent`

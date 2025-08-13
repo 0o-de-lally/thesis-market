@@ -138,3 +138,17 @@
 [10]: https://www.metaculus.com/notebooks/28701/why-forecasting-an-introduction-for-first-timers/?utm_source=chatgpt.com "Why Forecasting? An Introduction for First-Timers - Metaculus"
 [11]: https://pmc.ncbi.nlm.nih.gov/articles/PMC7333631/?utm_source=chatgpt.com "Superforecasting reality check: Evidence from a small pool of ..."
 [12]: https://arxiv.org/pdf/2402.07862?utm_source=chatgpt.com "[PDF] LLM Assistants Improve Human Forecasting Accuracy - arXiv"
+
+---
+
+## Conclusions (v0)
+
+1. Curated, screened forecasting funnels (open → invite) are empirically proven (GJP, Metaculus) to surface persistent accuracy deltas versus unfiltered crowds; replication critiques imply we must segment by question type to avoid overstated generality.
+2. Long-horizon (5–10y) epistemics remain under-benchmarked; adopting interim calibration checkpoints and HoTPP-inspired metrics early is necessary to mitigate horizon decay risk.
+3. Commentary + structured reasoning artifacts are a likely additive talent signal beyond raw scores, but require a reliability-rated rubric (not yet implemented) to avoid subjective drift.
+4. Incentive architecture (delayed + reputation-weighted payouts) is theoretically aligned with depth-over-volume, but no published quantitative retention vs liquidity curves—must be experimentally validated.
+5. Using forecast track record as a proxy for capital allocation or governance quality is still unverified; shadow mandate simulation plus governance decision pilots are required before weighting reputation in resource deployment.
+6. Domain clustering (AI, bio, macro, climate, energy) is feasible and already practiced; statistical distinctiveness of cross-domain skill needs confirmation to justify multi-domain calibration thresholds.
+7. Anti-gaming measures (anomaly detection + slashing) are design-ready, but economic deterrence ratios and false positive rates need modeling prior to deployment.
+
+Open Research Questions & Validation Plans: See `research-backlog.md` (living document) for the prioritized list, ownership, and acceptance criteria.

@@ -121,6 +121,32 @@ Next Actions (Handoffs):
 - To Technical Architect: outline minimal architecture for curated markets, reputation ledger, payout scheduling, and anti-Sybil controls; note constraints from low validator rewards.
 - To Market Intelligence (endowments): scan for qualified impact/forward-looking investment managers and define evaluation criteria; assess whether prediction-market performance correlates with investment decision quality.
 
+## Regulatory & Geo-Fencing Requirements
+Purpose: Reduce regulatory exposure in jurisdictions where curated prediction markets could be interpreted as unregistered event-based derivatives or contract markets.
+
+Policy (v0):
+- Client software (web, desktop, mobile) MUST implement geo-fencing to restrict interactive functionality (account creation, order placement, payout claims) from IPs & verified residency in restricted jurisdictions (list to be maintained: e.g., US, CA, UK, EU member states, or any locale with explicit prohibition until licensed / exempt).
+- Read-only market data access MAY remain globally available (unless advised otherwise) to preserve transparency while blocking economic participation.
+- Mandatory affirmative attestation (jurisdiction & eligibility) at account creation and periodically (every 180 days) or upon detected location change.
+- Evasion Safeguards: Detect and flag high-risk patterns (frequent VPN ASN switching, inconsistent timezone vs claimed jurisdiction) → trigger enhanced KYC or suspend trading.
+- No encouragement or documentation of circumvention (explicit user messaging on blocked access reasoning).
+- Logging: Retain (hashed/anonymized where possible) geo decision events for audit; avoid storing raw IP longer than necessary for compliance risk analysis.
+
+Technical Implications:
+- Middleware service to resolve geo (primary + fallback provider) with deterministic caching & signed decision object (jurisdiction_code, risk_flags, timestamp, ttl).
+- Policy config file (on-chain reference hash optional) to allow agents / auditors to verify consistent enforcement across clients.
+- Feature gating at API boundary (server side) plus defensive UI gating (client) to mitigate tampering.
+
+Open Questions (refer to research backlog if elevated):
+- Which jurisdictions allow limited-scope “play” or research markets under safe harbor frameworks?
+- Cost/benefit of pursuing no-action relief vs. full licensing in top blocked markets.
+- Threshold at which market depth / volume could reclassify activity under local regulatory definitions.
+
+Next Actions:
+- Legal/Compliance consultation to confirm initial restricted list & attestation wording.
+- Technical Architect to draft geo service interface spec.
+- Market Intelligence to benchmark competitor geo policies (Metaculus, Polymarket, Kalshi) for best practices.
+
 ## Truth sources & verification
 - Claims requiring verification and citation:
 	- OL prioritizes $LBR value over competing as a general-purpose L1. [Status: unverified]
