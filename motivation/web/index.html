@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis-Market | Curated Prediction Markets for Megatrends</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.js" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'roboto': ['Roboto', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary': {
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                        },
+                        'accent': {
+                            400: '#34d399',
+                            500: '#10b981',
+                            600: '#059669',
+                        },
+                        'dark': {
+                            900: '#0f172a',
+                            800: '#1e293b',
+                            700: '#334155',
+                            600: '#475569',
+                            500: '#64748b',
+                            400: '#94a3b8',
+                            300: '#cbd5e1',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-roboto text-dark-300 bg-dark-900 dark">
+    <nav class="fixed top-0 w-full bg-dark-800/95 backdrop-blur-sm border-b border-dark-700 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-baseline gap-2">
+                <h2 class="text-2xl font-bold font-poppins text-primary-400">THESIS</h2>
+                <span class="text-xs text-dark-500 font-medium">by Open Libra</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#features" class="text-dark-400 hover:text-primary-400 font-medium transition-colors">Features</a>
+                <a href="#horizons" class="text-dark-400 hover:text-primary-400 font-medium transition-colors">Horizons</a>
+                <a href="#reputation" class="text-dark-400 hover:text-primary-400 font-medium transition-colors">Reputation</a>
+                <a href="#access" class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold transition-all hover:-translate-y-0.5 hover:shadow-md">Request Access</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-br from-dark-900 to-dark-800 pt-32 pb-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-20 items-center">
+            <div class="max-w-xl">
+                <h1 class="text-5xl md:text-6xl font-bold font-poppins leading-tight mb-6 bg-gradient-to-r from-white to-primary-400 bg-clip-text text-transparent">Convert Forecasting Accuracy Into Portable Reputation</h1>
+                <p class="text-xl text-dark-300 mb-10 leading-relaxed">A curated, multi-horizon prediction market that rewards clear, testable long-term theses instead of hot takes. Built for researchers, analysts, and aligned donors who need proof of judgment, not noise.</p>
+                <div class="flex flex-wrap gap-4">
+                    <button class="bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all hover:-translate-y-1 hover:shadow-lg">Join the Waitlist</button>
+                    <button class="border-2 border-primary-500 text-primary-400 hover:bg-primary-500 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all">View Sample Thesis</button>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="bg-dark-800 rounded-2xl p-6 shadow-2xl border border-dark-700 max-w-sm relative forecast-card">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-primary-500 to-accent-500 rounded-t-2xl"></div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="bg-primary-500 text-white px-3 py-1 rounded-xl text-xs font-semibold">Megatrend Thesis</span>
+                        <span class="text-dark-500 text-xs font-medium">5-Year Horizon</span>
+                    </div>
+                    <h3 class="text-lg font-semibold font-poppins mb-2 text-white">Global AI Model Training Costs</h3>
+                    <p class="text-dark-300 text-sm mb-5">Will drop 80% by 2030 due to algorithmic efficiency gains</p>
+                    <div class="text-center mb-5">
+                        <span class="block text-5xl font-bold font-poppins text-accent-400 leading-none probability-value">72</span>
+                        <span class="text-xs text-dark-500 uppercase tracking-wide font-medium">% Confidence</span>
+                    </div>
+                    <div class="flex justify-between items-center pt-4 border-t border-dark-700">
+                        <span class="text-primary-400 font-semibold text-sm">@elena_macro</span>
+                        <span class="text-dark-500 text-xs font-medium">Brier: 0.18</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="py-20 bg-dark-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold font-poppins text-center mb-16 text-white">Why Thesis-Market</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-dark-700 p-8 rounded-2xl shadow-md border border-dark-600 hover:-translate-y-2 transition-all duration-300 hover:shadow-lg hover:border-primary-500/50">
+                    <div class="w-12 h-12 mb-4 text-primary-400">
+                        <i data-lucide="target" class="w-full h-full"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins mb-3 text-white">Curated Megatrends</h3>
+                    <p class="text-dark-300 leading-relaxed">Only high-impact, clearly resolvable themes like AI adoption, bio progress, and energy transitions. No noise, just signal.</p>
+                </div>
+                <div class="bg-dark-700 p-8 rounded-2xl shadow-md border border-dark-600 hover:-translate-y-2 transition-all duration-300 hover:shadow-lg hover:border-primary-500/50">
+                    <div class="w-12 h-12 mb-4 text-primary-400">
+                        <i data-lucide="trending-up" class="w-full h-full"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins mb-3 text-white">Multi-Horizon Ladder</h3>
+                    <p class="text-dark-300 leading-relaxed">Connect short-term calibration to long-term outcomes. Build credible track records without waiting years for validation.</p>
+                </div>
+                <div class="bg-dark-700 p-8 rounded-2xl shadow-md border border-dark-600 hover:-translate-y-2 transition-all duration-300 hover:shadow-lg hover:border-primary-500/50">
+                    <div class="w-12 h-12 mb-4 text-primary-400">
+                        <i data-lucide="award" class="w-full h-full"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins mb-3 text-white">Transparent Reputation</h3>
+                    <p class="text-dark-300 leading-relaxed">Timestamped forecasts with public reasoning build credibility. Your track record becomes portable capital.</p>
+                </div>
+                <div class="bg-dark-700 p-8 rounded-2xl shadow-md border border-dark-600 hover:-translate-y-2 transition-all duration-300 hover:shadow-lg hover:border-primary-500/50">
+                    <div class="w-12 h-12 mb-4 text-primary-400">
+                        <i data-lucide="coins" class="w-full h-full"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins mb-3 text-white">Quality-First Rewards</h3>
+                    <p class="text-dark-300 leading-relaxed">Delayed, reputation-weighted payouts favor consistent accuracy over quick churn. Community bounties amplify returns.</p>
+                </div>
+                <div class="bg-dark-700 p-8 rounded-2xl shadow-md border border-dark-600 hover:-translate-y-2 transition-all duration-300 hover:shadow-lg hover:border-primary-500/50">
+                    <div class="w-12 h-12 mb-4 text-primary-400">
+                        <i data-lucide="shield-check" class="w-full h-full"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins mb-3 text-white">Compliance-First</h3>
+                    <p class="text-dark-300 leading-relaxed">Geo-fencing, attestation, and anomaly detection reduce regulatory risk while maintaining global transparency.</p>
+                </div>
+                <div class="bg-dark-700 p-8 rounded-2xl shadow-md border border-dark-600 hover:-translate-y-2 transition-all duration-300 hover:shadow-lg hover:border-primary-500/50">
+                    <div class="w-12 h-12 mb-4 text-primary-400">
+                        <i data-lucide="cpu" class="w-full h-full"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold font-poppins mb-3 text-white">Shadow Mandate</h3>
+                    <p class="text-dark-300 leading-relaxed">Simulate portfolio management based on your forecasts. Bridge prediction accuracy to governance readiness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="horizons" class="py-20 bg-dark-900">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold font-poppins text-center mb-4 text-white">Multi-Horizon Forecast Ladder</h2>
+            <p class="text-lg text-dark-300 text-center mb-16 max-w-2xl mx-auto">Accelerate talent discovery while building credible long-horizon track records</p>
+
+            <div class="space-y-0">
+                <div class="flex items-start gap-6 relative">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center text-white flex-shrink-0 z-10">
+                        <i data-lucide="zap" class="w-8 h-8"></i>
+                    </div>
+                    <div class="flex-1 pb-12">
+                        <h3 class="text-2xl font-semibold font-poppins mb-2 text-white">Fast Calibration</h3>
+                        <span class="inline-block bg-dark-700 text-dark-300 px-3 py-1 rounded-lg text-sm font-medium mb-4">1-30 days</span>
+                        <p class="text-dark-300 mb-4 leading-relaxed">Daily or weekly prompts aligned with megatrend drivers. Quickly measure baseline calibration and update discipline.</p>
+                        <div class="bg-dark-800 p-4 rounded-lg border-l-4 border-primary-500">
+                            <strong class="text-white">Example:</strong> <span class="text-dark-300">"Will OpenAI announce a new model this month?"</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-0.5 h-8 bg-dark-700 ml-8 -my-4"></div>
+
+                <div class="flex items-start gap-6 relative">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center text-white flex-shrink-0 z-10">
+                        <i data-lucide="crosshair" class="w-8 h-8"></i>
+                    </div>
+                    <div class="flex-1 pb-12">
+                        <h3 class="text-2xl font-semibold font-poppins mb-2 text-white">Milestone Markets</h3>
+                        <span class="inline-block bg-dark-700 text-dark-300 px-3 py-1 rounded-lg text-sm font-medium mb-4">3-18 months</span>
+                        <p class="text-dark-300 mb-4 leading-relaxed">Thematic questions that decompose multi-year theses into observable checkpoints like adoption metrics and regulatory milestones.</p>
+                        <div class="bg-dark-800 p-4 rounded-lg border-l-4 border-primary-500">
+                            <strong class="text-white">Example:</strong> <span class="text-dark-300">"Will GPU training costs drop 20% by Q2 2026?"</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-0.5 h-8 bg-dark-700 ml-8 -my-4"></div>
+
+                <div class="flex items-start gap-6 relative">
+                    <div class="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-purple-700 flex items-center justify-center text-white flex-shrink-0 z-10">
+                        <i data-lucide="telescope" class="w-8 h-8"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-semibold font-poppins mb-2 text-white">Megatrend Theses</h3>
+                        <span class="inline-block bg-dark-700 text-dark-300 px-3 py-1 rounded-lg text-sm font-medium mb-4">5-10 years</span>
+                        <p class="text-dark-300 mb-4 leading-relaxed">Structured multi-year markets requiring scenario trees and reasoning artifacts. Access by invitation only.</p>
+                        <div class="bg-dark-800 p-4 rounded-lg border-l-4 border-primary-500">
+                            <strong class="text-white">Example:</strong> <span class="text-dark-300">"Will AI training costs drop 80% by 2030?"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reputation" class="py-20 bg-dark-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold font-poppins mb-6 text-white">Your Portfolio of Beliefs</h2>
+                    <p class="text-lg text-dark-300 mb-8 leading-relaxed">Declare your coherent worldview, then place bets across multiple timelines that validate your thesis. Build a transparent dossier of foresight quality that serves as portable capital.</p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3">
+                            <span class="w-5 h-5 bg-accent-500 rounded-full flex items-center justify-center text-white">
+                                <i data-lucide="check" class="w-3 h-3"></i>
+                            </span>
+                            <span class="text-dark-300">Cryptographically timestamped forecasts</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="w-5 h-5 bg-accent-500 rounded-full flex items-center justify-center text-white">
+                                <i data-lucide="check" class="w-3 h-3"></i>
+                            </span>
+                            <span class="text-dark-300">Public reasoning with peer review</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="w-5 h-5 bg-accent-500 rounded-full flex items-center justify-center text-white">
+                                <i data-lucide="check" class="w-3 h-3"></i>
+                            </span>
+                            <span class="text-dark-300">Cross-domain calibration tracking</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="w-5 h-5 bg-accent-500 rounded-full flex items-center justify-center text-white">
+                                <i data-lucide="check" class="w-3 h-3"></i>
+                            </span>
+                            <span class="text-dark-300">Coherence scoring across linked forecasts</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class="bg-dark-700 rounded-2xl p-8 shadow-xl border border-dark-600 max-w-sm w-full">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-12 h-12 bg-gradient-to-br from-primary-500 to-accent-500 rounded-full flex items-center justify-center text-white font-bold font-poppins text-lg">EM</div>
+                            <div>
+                                <h3 class="font-semibold font-poppins text-white">Elena M.</h3>
+                                <span class="text-sm text-dark-400">Independent Macro Researcher</span>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-3 bg-dark-800 rounded-lg border border-dark-600">
+                                <span class="block text-2xl font-bold font-poppins text-primary-400 stat-value">0.18</span>
+                                <span class="text-xs text-dark-500 uppercase tracking-wide">Brier Score</span>
+                            </div>
+                            <div class="text-center p-3 bg-dark-800 rounded-lg border border-dark-600">
+                                <span class="block text-2xl font-bold font-poppins text-primary-400 stat-value">94</span>
+                                <span class="text-xs text-dark-500 uppercase tracking-wide">Calibration</span>
+                            </div>
+                            <div class="text-center p-3 bg-dark-800 rounded-lg border border-dark-600">
+                                <span class="block text-2xl font-bold font-poppins text-primary-400 stat-value">8.4</span>
+                                <span class="text-xs text-dark-500 uppercase tracking-wide">Coherence</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h4 class="font-semibold font-poppins mb-2 text-white">Active Thesis</h4>
+                            <p class="text-sm text-dark-300 italic mb-4">"Energy transition acceleration will outpace consensus timelines due to policy convergence"</p>
+                            <div class="flex items-center gap-3">
+                                <span class="text-xs text-dark-500">12/15 linked forecasts</span>
+                                <div class="flex-1 h-1.5 bg-dark-600 rounded-full overflow-hidden">
+                                    <div class="h-full bg-gradient-to-r from-primary-500 to-accent-500 rounded-full progress-fill" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="access" class="py-20 bg-dark-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold font-poppins text-center mb-4 text-white">Earn Your Access</h2>
+            <p class="text-lg text-dark-300 text-center mb-16 max-w-2xl mx-auto">Quality over quantity. Progress through calibration-based tiers to access elite forecasting cohorts.</p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-dark-800 p-8 rounded-2xl shadow-md border-2 border-dark-700 hover:-translate-y-2 transition-all duration-300 relative overflow-hidden hover:border-accent-500/50">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-accent-500"></div>
+                    <div class="mb-6">
+                        <div class="w-12 h-12 mb-4 text-accent-400">
+                            <i data-lucide="user-plus" class="w-full h-full"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold font-poppins mb-2 text-white">Screening Layer</h3>
+                        <span class="inline-block px-3 py-1 bg-green-900/50 text-accent-400 rounded-lg text-xs font-semibold uppercase tracking-wide border border-accent-500/30">Open Access</span>
+                    </div>
+                    <p class="text-dark-300 mb-6 leading-relaxed">Broad megatrend micro-questions to collect baseline calibration and reasoning samples.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Daily calibration challenges
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Standard Brier scoring
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Public reasoning required
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Cross-domain tracking
+                        </li>
+                    </ul>
+                    <div class="p-4 bg-dark-700 rounded-lg border-l-4 border-primary-500">
+                        <strong class="text-white">Requirement:</strong> <span class="text-dark-300">Complete attestation</span>
+                    </div>
+                </div>
+
+                <div class="bg-dark-800 p-8 rounded-2xl shadow-md border-2 border-dark-700 hover:-translate-y-2 transition-all duration-300 relative overflow-hidden hover:border-primary-500/50">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-primary-500"></div>
+                    <div class="mb-6">
+                        <div class="w-12 h-12 mb-4 text-primary-400">
+                            <i data-lucide="users" class="w-full h-full"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold font-poppins mb-2 text-white">Invite Cohort</h3>
+                        <span class="inline-block px-3 py-1 bg-blue-900/50 text-primary-400 rounded-lg text-xs font-semibold uppercase tracking-wide border border-primary-500/30">Performance-Based</span>
+                    </div>
+                    <p class="text-dark-300 mb-6 leading-relaxed">Access to 5-10 year structured markets with mandatory thesis write-ups and scenario trees.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Long-horizon markets
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Peer review process
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Reputation multipliers
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Community bounties
+                        </li>
+                    </ul>
+                    <div class="p-4 bg-dark-700 rounded-lg border-l-4 border-primary-500">
+                        <strong class="text-white">Requirement:</strong> <span class="text-dark-300">Top 5% calibration across 3+ domains</span>
+                    </div>
+                </div>
+
+                <div class="bg-dark-800 p-8 rounded-2xl shadow-md border-2 border-dark-700 hover:-translate-y-2 transition-all duration-300 relative overflow-hidden hover:border-purple-500/50">
+                    <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-500 to-purple-700"></div>
+                    <div class="mb-6">
+                        <div class="w-12 h-12 mb-4 text-purple-400">
+                            <i data-lucide="crown" class="w-full h-full"></i>
+                        </div>
+                        <h3 class="text-2xl font-semibold font-poppins mb-2 text-white">Shadow Mandate</h3>
+                        <span class="inline-block px-3 py-1 bg-purple-900/50 text-purple-400 rounded-lg text-xs font-semibold uppercase tracking-wide border border-purple-500/30">Elite Only</span>
+                    </div>
+                    <p class="text-dark-300 mb-6 leading-relaxed">Manage simulated endowment allocations based on forecast distributions for governance evaluation.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Portfolio simulation
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Risk-adjusted scoring
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Manager evaluation
+                        </li>
+                        <li class="flex items-center gap-2 text-dark-300">
+                            <i data-lucide="check" class="text-accent-400 w-4 h-4"></i> Governance pathway
+                        </li>
+                    </ul>
+                    <div class="p-4 bg-dark-700 rounded-lg border-l-4 border-primary-500">
+                        <strong class="text-white">Requirement:</strong> <span class="text-dark-300">Invitation + thesis quality review</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <section class="py-20 bg-primary-600 text-white text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <blockquote class="text-3xl font-medium font-poppins leading-relaxed mb-6">
+                "I wanted a venue that rewards clear, testable long term theses instead of hot takes. Thesis-Market finally channels deep research into a portable track record."
+            </blockquote>
+            <cite class="text-lg opacity-80">— Elena M., Independent Macro Researcher</cite>
+        </div>
+    </section>
+
+    <section class="py-20 bg-dark-800">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-4xl font-bold font-poppins text-center mb-16 text-white">Launch Timeline</h2>
+            <div class="space-y-12">
+                <div class="flex items-start gap-6 relative">
+                    <div class="w-8 h-8 rounded-full bg-primary-500 shadow-lg ring-4 ring-primary-500/20 flex-shrink-0 relative z-10 flex items-center justify-center">
+                        <i data-lucide="play" class="w-4 h-4 text-white"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold font-poppins mb-2 text-white">Design Validation</h3>
+                        <span class="inline-block bg-dark-700 text-dark-300 px-3 py-1 rounded-lg text-sm font-medium mb-3">Now</span>
+                        <p class="text-dark-300">Private design validation with target user interviews and concept testing</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-6 relative">
+                    <div class="absolute left-4 top-0 w-0.5 h-full bg-dark-700 -z-10"></div>
+                    <div class="w-8 h-8 rounded-full bg-dark-700 flex-shrink-0 border-2 border-dark-600 flex items-center justify-center">
+                        <i data-lucide="clock" class="w-4 h-4 text-dark-400"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold font-poppins mb-2 text-white">Limited Alpha</h3>
+                        <span class="inline-block bg-dark-700 text-dark-300 px-3 py-1 rounded-lg text-sm font-medium mb-3">Q4 2025</span>
+                        <p class="text-dark-300">Six pilot megatrend markets with invite-based access for qualified forecasters</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-6 relative">
+                    <div class="w-8 h-8 rounded-full bg-dark-700 flex-shrink-0 border-2 border-dark-600 flex items-center justify-center">
+                        <i data-lucide="globe" class="w-4 h-4 text-dark-400"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold font-poppins mb-2 text-white">Public Beta</h3>
+                        <span class="inline-block bg-dark-700 text-dark-300 px-3 py-1 rounded-lg text-sm font-medium mb-3">Q1 2026</span>
+                        <p class="text-dark-300">Open screening layer with full multi-horizon ladder and reputation system</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark-900 text-white py-16 border-t border-dark-700">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-1">
+                    <h3 class="text-2xl font-bold font-poppins mb-3">Thesis-Market</h3>
+                    <p class="text-dark-400 leading-relaxed">Curated prediction markets for people with vision</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold font-poppins mb-4">Product</h4>
+                    <div class="space-y-2">
+                        <a href="#features" class="block text-dark-400 hover:text-white transition-colors">Features</a>
+                        <a href="#horizons" class="block text-dark-400 hover:text-white transition-colors">How It Works</a>
+                        <a href="#access" class="block text-dark-400 hover:text-white transition-colors">Get Access</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold font-poppins mb-4">Company</h4>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-dark-400 hover:text-white transition-colors">About Open Libra</a>
+                        <a href="#" class="block text-dark-400 hover:text-white transition-colors">Research</a>
+                        <a href="#" class="block text-dark-400 hover:text-white transition-colors">Careers</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold font-poppins mb-4">Resources</h4>
+                    <div class="space-y-2">
+                        <a href="#" class="block text-dark-400 hover:text-white transition-colors">Documentation</a>
+                        <a href="#" class="block text-dark-400 hover:text-white transition-colors">API</a>
+                        <a href="#" class="block text-dark-400 hover:text-white transition-colors">Support</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center pt-8 border-t border-dark-700">
+                <p class="text-dark-500">&copy; 2025 Open Libra. Building the future of forecasting.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>

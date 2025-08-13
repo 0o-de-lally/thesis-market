@@ -13,41 +13,62 @@
 
 ## 1. Objective
 
-Thesis-Market is a curated, multi-horizon prediction market that converts forecasting accuracy into a visible, portable reputation signal. It serves as a talent discovery and validation platform for high-signal thinkers who can demonstrate foresight across megatrends, ultimately supporting Open Libra's strategy to identify qualified stewards for donor-voice endowments.
+Thesis-Market is a curated, multi-horizon prediction market that converts forecasting accuracy into a visible, portable reputation signal through team-based thesis validation. Users progress from individual short-term challenges to forming or joining thesis teams around specific worldviews (e.g., "AI doomer," "biotech revolution"), enabling collaborative forecasting and copy-trading opportunities. The platform serves as a talent discovery and validation platform for high-signal thinkers who can demonstrate foresight across megatrends, ultimately supporting Open Libra's strategy to identify qualified stewards for donor-voice endowments.
 
-**Primary User Problem:** There is no purpose-built venue for deep thinkers and researchers to participate in long-term megatrend forecasting while building a credible, portable track record of their judgment quality.
+**Primary User Problem:** There is no purpose-built venue for deep thinkers and researchers to participate in long-term megatrend forecasting while building a credible, portable track record through team-based thesis validation and copy-trading mechanisms.
 
-**Secondary Problem:** Open Libra needs a Schelling point to attract and identify high-signal contributors who can "see around corners" for eventual roles in donor-voice endowment stewardship.
+**Secondary Problem:** Open Libra needs a Schelling point to attract and identify high-signal contributors who can "see around corners" for eventual roles in donor-voice endowment stewardship, while providing mechanisms for broader participation through copy-trading successful thesis teams.
+
+**Tertiary Problem:** Individual forecasters lack pathways to scale their insights through team formation and collaborative thesis development, limiting the network effects of high-quality forecasting.
 
 ## 2. Success Metrics
 
 ### Primary Metrics:
-- **1,000 screening participants** within 6 months of launch
-- **50 high-signal forecasters** identified across multiple domains within 6 months
-- **70% retention rate** over 3 months for invite-only cohort participants
+- **1,000 screening participants** within 6 months of launch completing daily/weekly short-term market challenges
+- **50 high-signal forecasters** progressing to thesis team formation across multiple domains within 6 months
+- **20 active thesis teams** with sustained forecasting activity and member engagement
+- **70% retention rate** over 3 months for thesis team members
+
+### Team and Copy-Trading Metrics:
+- **500 copy-trading relationships** established between end users and thesis teams within 9 months
+- **Average team size of 5-8 members** per active thesis with balanced contribution patterns
+- **15% monthly growth** in copy-trading volume following successful thesis team milestones
+- **Community sweetener pool utilization rate** of 80% with milestone rewards driving engagement
 
 ### Secondary Metrics:
-- **Cross-domain calibration stability:** Top performers maintain above-median Brier scores across ≥3 thematic clusters
-- **Reasoning quality improvement:** ≥20% improvement in peer-reviewed reasoning scores compared to immediate-payout control group
-- **Shadow mandate simulation performance:** Top 10 performers achieve Information Ratio ≥0.5 in simulated portfolio management
+- **Cross-domain calibration stability:** Top performing thesis teams maintain above-median Brier scores across ≥3 thematic clusters
+- **Reasoning quality improvement:** ≥20% improvement in peer-reviewed reasoning scores compared to individual-only control group
+- **Shadow mandate simulation performance:** Top 10 thesis teams achieve Information Ratio ≥0.5 in simulated portfolio management
 - **Liquidity maintenance:** ≤15% degradation in market depth when delayed payouts are implemented
 
 ### Long-term Success Indicators:
-- **Manager funnel conversion:** 5-10 forecasters qualified for donor-voice endowment manager evaluation annually
+- **Manager funnel conversion:** 5-10 thesis team leaders qualified for donor-voice endowment manager evaluation annually
 - **Reputation portability:** Thesis-Market track records accepted as credible signals by external parties
-- **Platform sustainability:** Community wallet bounties and prizes amplify participant retention and discovery
+- **Platform sustainability:** Community wallet bounties and sweetener rewards amplify participant retention and discovery
+- **Thesis diversity:** 30+ distinct thesis categories with active teams representing diverse worldview clusters
 
 ## 3. User Stories
 
-### Primary Users: Forecasters & Researchers
-- **As a researcher,** I want to declare and test my long-term theses about technological and societal trends so that I can build a credible track record of my foresight.
-- **As a forecaster,** I want to participate in carefully curated megatrend markets so that I can demonstrate my judgment quality without noise from trivial or short-term speculation.
-- **As an analyst,** I want my forecasting performance to be scored transparently with industry-standard metrics so that my reputation is portable and verifiable.
-- **As a deep thinker,** I want to access invitation-only long-horizon markets so that I can engage with serious intellectual challenges alongside other high-caliber participants.
+### Primary Users: Individual Forecasters Progressing Through Challenges
+- **As a new user,** I want to complete daily and weekly short-term forecasting challenges so that I can build a winning streak and unlock access to thesis team formation.
+- **As a forecaster,** I want to declare and test my long-term theses about technological and societal trends through team formation so that I can build a credible track record with collaborative validation.
+- **As a successful short-term forecaster,** I want to create a thesis team around my worldview (e.g., "AI doomer") so that I can attract like-minded forecasters and scale my insights.
+- **As a researcher,** I want to join multiple thesis teams that align with my expertise areas so that I can contribute to diverse collaborative forecasting efforts.
+- **As a team member,** I want my individual forecasting performance to contribute to our team's reputation score so that collective intelligence amplifies individual contributions.
+
+### Copy-Trading Users: End Users Following Thesis Teams
+- **As an end user,** I want to copy-trade the forecasting decisions of successful thesis teams so that I can benefit from their expertise without developing my own forecasting skills.
+- **As a copy-trader,** I want to see transparent performance metrics for different thesis teams so that I can make informed decisions about which teams to follow.
+- **As a casual participant,** I want to diversify my copy-trading across multiple thesis teams with different worldviews so that I can hedge my exposure to any single perspective.
+
+### Thesis Team Leaders and Contributors
+- **As a thesis team leader,** I want to set clear criteria for team membership and contribution expectations so that we maintain high-quality collaborative forecasting.
+- **As a team contributor,** I want to see how my individual scores impact our collective team performance so that I can optimize my contributions to team success.
+- **As a team member,** I want access to milestone rewards from the community sweetener pool when our team achieves significant forecasting successes.
 
 ### Secondary Users: Donor-Voice Endowment Stakeholders
-- **As a donor,** I want to identify potential endowment managers through their demonstrated forecasting ability so that I can make informed decisions about capital stewardship.
-- **As an endowment evaluator,** I want access to transparent, timestamped forecast histories with reasoning so that I can assess candidate managers' judgment quality over time.
+- **As a donor,** I want to identify potential endowment managers through their demonstrated thesis team leadership and forecasting ability so that I can make informed decisions about capital stewardship.
+- **As an endowment evaluator,** I want access to transparent, timestamped forecast histories with reasoning from both individuals and thesis teams so that I can assess candidate managers' judgment quality and collaborative leadership over time.
 
 ### Platform Operators
 - **As a platform operator,** I want to maintain high signal-to-noise ratios through curation so that serious thinkers remain engaged and extractive behavior is minimized.
@@ -55,28 +76,61 @@ Thesis-Market is a curated, multi-horizon prediction market that converts foreca
 
 ## 4. Functional Requirements
 
+### Challenge-Based Progression System
+- **REQ-001:** New users must complete daily and weekly short-term forecasting challenges to establish initial calibration and unlock team formation privileges
+- **REQ-002:** System must track winning streaks on short-term markets (closing daily or weekly) as qualification criteria for thesis team access
+- **REQ-003:** Users must achieve minimum performance thresholds on challenge markets before gaining rights to create or join thesis teams
+- **REQ-004:** Challenge system must provide clear progression feedback showing users their advancement toward team formation eligibility
+
 ### Core Forecasting Functionality
-- **REQ-001:** Users must be able to submit probability forecasts on binary and scaled questions with mandatory reasoning commentary
-- **REQ-002:** System must support three distinct forecast horizons: Fast Calibration (1-30 days), Milestone Markets (3-18 months), and Megatrend Theses (5-10 years)
-- **REQ-003:** All forecasts must be timestamped and cryptographically signed to ensure integrity and prevent retroactive manipulation
-- **REQ-004:** Users must be able to update their forecasts with new reasoning while maintaining full historical audit trail
+- **REQ-005:** Users must be able to submit probability forecasts on binary and scaled questions with mandatory reasoning commentary
+- **REQ-006:** System must support three distinct forecast horizons: Fast Calibration (1-30 days), Milestone Markets (3-18 months), and Megatrend Theses (5-10 years)
+- **REQ-007:** All forecasts must be timestamped and cryptographically signed to ensure integrity and prevent retroactive manipulation
+- **REQ-008:** Users must be able to update their forecasts with new reasoning while maintaining full historical audit trail
+
+### Thesis Team Formation and Management
+- **REQ-009:** Qualified users must be able to create thesis teams with descriptive phrases (e.g., "AI doomer," "biotech revolution," "energy transition skeptic")
+- **REQ-010:** Users must be able to join multiple thesis teams simultaneously without restriction on team count
+- **REQ-011:** Thesis team creators must be able to set team description, membership criteria, and contribution expectations
+- **REQ-012:** System must support team invitation systems where leaders can recruit specific forecasters based on their track records
+- **REQ-013:** Teams must have governance mechanisms for removing inactive or disruptive members through consensus voting
+
+### Team Score Propagation and Aggregation
+- **REQ-014:** Individual user forecasting scores must automatically propagate to all thesis teams they belong to using weighted contribution algorithms
+- **REQ-015:** Team scores must aggregate individual member performance using reputation-weighted averages with decay factors for inactive members
+- **REQ-016:** System must calculate and display team-level Brier scores, calibration metrics, and reasoning quality scores
+- **REQ-017:** Team performance metrics must be updated in real-time as individual member forecasts are submitted and resolved
+
+### Copy-Trading Infrastructure
+- **REQ-018:** End users must be able to follow and automatically copy the forecasting decisions of individual thesis teams
+- **REQ-019:** Copy-trading system must support portfolio allocation where users can distribute their following across multiple thesis teams
+- **REQ-020:** Platform must provide transparent performance dashboards for all thesis teams to inform copy-trading decisions
+- **REQ-021:** Copy-traders must be able to set risk limits and automatic stop-loss triggers based on team performance degradation
+- **REQ-022:** System must track and display copy-trading volume and follower counts for each thesis team
+
+### Milestone Rewards and Sweetener Pool
+- **REQ-023:** Platform must maintain a community-funded "sweetener" rewards pool that any users can contribute to
+- **REQ-024:** System must define and track milestone achievements for thesis teams (e.g., calibration thresholds, winning streaks, accuracy targets)
+- **REQ-025:** Automated reward distribution must trigger when thesis teams achieve predefined milestones, drawing from the sweetener pool
+- **REQ-026:** Community wallet contributions to the sweetener pool must be transparent with donor recognition and allocation tracking
+- **REQ-027:** Milestone reward amounts must scale based on achievement difficulty and available sweetener pool balance
 
 ### Multi-Horizon Portfolio Architecture
-- **REQ-005:** Users must be able to declare explicit long-term theses that serve as umbrella frameworks for their forecasting activity
-- **REQ-006:** System must link short and medium-horizon forecasts to parent long-term theses for coherence tracking
-- **REQ-007:** Platform must calculate and display coherence scores based on consistency between linked forecasts and declared theses
-- **REQ-008:** Users must be able to view their complete "portfolio of beliefs" showing all linked forecasts organized by thesis
+- **REQ-028:** Users must be able to declare explicit long-term theses that serve as umbrella frameworks for their forecasting activity
+- **REQ-029:** System must link short and medium-horizon forecasts to parent long-term theses for coherence tracking
+- **REQ-030:** Platform must calculate and display coherence scores based on consistency between linked forecasts and declared theses
+- **REQ-031:** Users must be able to view their complete "portfolio of beliefs" showing all linked forecasts organized by thesis
 
 ### Reputation and Scoring System
-- **REQ-009:** System must calculate and display Brier scores and logarithmic scores for all resolved markets
-- **REQ-010:** Platform must maintain lifetime calibration metrics for each user across different question types and time horizons
-- **REQ-011:** Reputation scores must incorporate accuracy, coherence, reasoning quality, and update discipline components
-- **REQ-012:** System must support reputation staking where users can bond reputation tokens that are slashable for misconduct
+- **REQ-032:** System must calculate and display Brier scores and logarithmic scores for all resolved markets at both individual and team levels
+- **REQ-033:** Platform must maintain lifetime calibration metrics for each user and thesis team across different question types and time horizons
+- **REQ-034:** Reputation scores must incorporate accuracy, coherence, reasoning quality, team contribution, and update discipline components
+- **REQ-035:** System must support reputation staking where users can bond reputation tokens that are slashable for misconduct
 
 ### Access Control and Promotion System
-- **REQ-013:** Platform must implement a tiered access system: Open Screening Layer → Performance Triage → Invite Cohort → Shadow Mandate Simulation
-- **REQ-014:** System must automatically promote users between tiers based on objective performance thresholds and minimum participation requirements
-- **REQ-015:** Invitation-only long-horizon markets must be accessible only to users who have demonstrated consistent calibration across multiple domains
+- **REQ-036:** Platform must implement a tiered access system: Challenge Layer → Team Formation → Advanced Markets → Shadow Mandate Simulation
+- **REQ-037:** System must automatically promote users between tiers based on objective performance thresholds and minimum participation requirements
+- **REQ-038:** Advanced long-horizon markets must be accessible only to thesis team members who have demonstrated consistent calibration
 
 ### Market Curation and Resolution
 - **REQ-016:** Platform must support only carefully curated megatrend markets focused on AI adoption, biotechnology progress, energy transitions, economic development, and other high-impact themes
@@ -128,62 +182,101 @@ Thesis-Market is a curated, multi-horizon prediction market that converts foreca
 ### Excluded for Initial Release
 - **General-purpose prediction markets:** Only curated megatrend markets will be supported; no user-generated or trivial event markets
 - **Real-time trading interfaces:** Focus on deliberate forecasting rather than high-frequency trading mechanics
-- **Social features beyond reasoning commentary:** No general messaging, friend systems, or gamification elements unrelated to forecast quality
-- **Integration with external trading platforms:** Shadow mandate simulation will be self-contained without live market connectivity
+- **Advanced social features beyond team formation:** No general messaging, friend systems, or gamification elements unrelated to forecast quality
+- **Cross-platform copy-trading:** Copy-trading limited to thesis teams within platform; no external platform integration
+- **Automated team formation:** Teams must be manually created and joined; no algorithmic team matching
 
 ### Future Considerations (Post-MVP)
 - **Direct donor-voice endowment integration:** Actual capital allocation authority pending compliance review and governance development
-- **Automated market making:** Initial markets will use community-provided liquidity rather than algorithmic market makers
+- **Advanced copy-trading features:** Stop-loss automation, rebalancing algorithms, and sophisticated risk management tools
 - **Cross-platform reputation import:** Integration with existing forecasting platform track records
-- **Advanced governance features:** Voting systems and formal manager selection processes
+- **Advanced governance features:** Voting systems for platform decisions and formal manager selection processes
+- **Team competition leagues:** Structured tournaments and head-to-head team competitions with prizes
 
 ### Explicitly Excluded
 - **Short-term event speculation:** Sports, entertainment, or other low-signal high-noise markets
 - **Cryptocurrency price prediction:** Focus on fundamental trends rather than asset price movements
-- **User-generated content moderation:** Reasoning quality will be peer-reviewed rather than algorithmically moderated
-- **Customer support chat systems:** Users will access support through structured channels rather than real-time chat
+- **Real-money copy-trading:** Copy-trading limited to reputation and platform rewards; no real-money investment products
+- **Automated market making:** Initial markets will use community-provided liquidity rather than algorithmic market makers
+- **Team chat and communication:** Teams coordinate through structured forecasting commentary rather than general messaging
 
 ## 7. Acceptance Criteria
 
+### Challenge Progression and Team Formation
+- **AC-001:** New user can complete daily/weekly challenges and track winning streak progress toward team formation eligibility
+- **AC-002:** User achieving minimum performance threshold can successfully create thesis team with descriptive name and criteria
+- **AC-003:** Qualified user can join multiple thesis teams simultaneously and see combined team affiliations in profile
+- **AC-004:** Team leader can invite specific users, set membership criteria, and manage team composition through governance tools
+
 ### Core Platform Functionality
-- **AC-001:** User can successfully create account, complete attestation, and submit first forecast within 5 minutes
-- **AC-002:** All forecast submissions include mandatory reasoning commentary of minimum 100 words
-- **AC-003:** System accurately calculates and displays Brier scores within 24 hours of market resolution
-- **AC-004:** Users can view complete audit trail of their forecast history including all updates and timestamps
+- **AC-005:** User can successfully create account, complete attestation, and submit first forecast within 5 minutes
+- **AC-006:** All forecast submissions include mandatory reasoning commentary of minimum 100 words
+- **AC-007:** System accurately calculates and displays individual and team-level Brier scores within 24 hours of market resolution
+- **AC-008:** Users can view complete audit trail of their forecast history including all updates and timestamps
+
+### Team Score Propagation and Performance
+- **AC-009:** Individual user scores automatically update team performance metrics using weighted contribution algorithms
+- **AC-010:** Team performance dashboards display real-time aggregated metrics for accuracy, calibration, and reasoning quality
+- **AC-011:** Users can view their individual contribution impact on each thesis team they belong to
+- **AC-012:** Team rankings update automatically and reflect changes in member performance and participation
+
+### Copy-Trading Functionality
+- **AC-013:** End user can successfully follow thesis team and automatically copy their forecasting decisions
+- **AC-014:** Copy-trading portfolio allows allocation across multiple teams with adjustable weighting and risk limits
+- **AC-015:** Performance tracking shows copy-trading returns compared to following individual teams vs. manual forecasting
+- **AC-016:** Copy-traders can set stop-loss triggers that automatically cease following underperforming teams
+
+### Milestone Rewards and Sweetener Pool
+- **AC-017:** Community members can contribute to sweetener pool with transparent tracking of donations and current balance
+- **AC-018:** Milestone achievements automatically trigger reward distribution to qualifying thesis teams from available pool
+- **AC-019:** Reward amounts scale appropriately based on achievement difficulty and pool balance with clear calculation methodology
+- **AC-020:** Team milestone notifications inform members of rewards earned and individual share allocations
 
 ### Multi-Horizon Integration
-- **AC-005:** Users can successfully link short-term forecasts to declared long-term theses with coherence scores updating automatically
-- **AC-006:** System promotes users from screening layer to invite cohort based on achieving >median calibration across ≥3 domains
-- **AC-007:** Shadow mandate simulation accurately reflects user forecast distributions in simulated portfolio performance
+- **AC-021:** Users can successfully link short-term forecasts to declared long-term theses with coherence scores updating automatically
+- **AC-022:** System promotes users from challenge layer to team formation based on achieving performance thresholds across domains
+- **AC-023:** Shadow mandate simulation accurately reflects team-level forecast distributions in simulated portfolio performance
 
 ### Quality and Curation
-- **AC-008:** Market resolution follows documented criteria with independent data source verification and <5% dispute rate
-- **AC-009:** Reputation staking system successfully deters manipulation attempts with <1% false positive penalty rate
-- **AC-010:** Community bounty system enables donors to sponsor markets and distribute prizes transparently
+- **AC-024:** Market resolution follows documented criteria with independent data source verification and <5% dispute rate
+- **AC-025:** Reputation staking system successfully deters manipulation attempts with <1% false positive penalty rate
+- **AC-026:** Community bounty system enables donors to sponsor markets and distribute prizes transparently to winning teams
 
 ### Compliance and Security
-- **AC-011:** Geo-fencing system blocks interactive access from prohibited jurisdictions while maintaining read-only transparency
-- **AC-012:** Anomaly detection system flags suspicious forecast patterns with manual review completing within 48 hours
-- **AC-013:** All user data can be exported in standard format for reputation portability verification
+- **AC-027:** Geo-fencing system blocks interactive access from prohibited jurisdictions while maintaining read-only transparency
+- **AC-028:** Anomaly detection system flags suspicious forecast patterns and coordinated team behavior with manual review completing within 48 hours
+- **AC-029:** All user and team data can be exported in standard format for reputation portability verification
 
 ## 8. Technical Requirements Summary
 
 ### Data Architecture
 - Forecast database with cryptographic signatures and immutable audit trails
-- Multi-dimensional reputation scoring engine with real-time calculation capabilities
+- Multi-dimensional reputation scoring engine with real-time calculation capabilities for individuals and teams
+- Team management system with membership tracking, governance voting, and score propagation algorithms
+- Copy-trading engine with portfolio allocation, risk management, and performance tracking
+- Milestone tracking system with automated reward distribution from sweetener pool
 - Shadow portfolio simulation engine with traditional finance metric calculations
 - Market resolution framework with multiple data source integration
 
 ### Integration Points
 - Geo-location services for compliance enforcement
-- Community wallet systems for bounty distribution
+- Community wallet systems for sweetener pool contributions and reward distribution
 - External data feeds for market resolution
-- Notification systems for forecast updates and market events
+- Notification systems for forecast updates, team activities, milestone achievements, and market events
+- Copy-trading API for automated forecast replication and portfolio management
 
 ### Security Infrastructure
-- Public key cryptography for forecast signing
-- Anomaly detection algorithms for anti-gaming
-- Comprehensive logging and audit trail systems
-- Privacy-preserving reputation calculation methods
+- Public key cryptography for forecast signing and team governance decisions
+- Anomaly detection algorithms for anti-gaming, coordinated manipulation, and sybil resistance
+- Team-level fraud detection for coordinated forecasting patterns and vote manipulation
+- Comprehensive logging and audit trail systems for individual and team activities
+- Privacy-preserving reputation calculation methods with selective disclosure controls
 
-This PRD establishes the foundation for building Thesis-Market as a purpose-built talent discovery and validation platform that serves Open Libra's strategic objectives while creating genuine value for serious forecasters and researchers.
+### Team and Copy-Trading Infrastructure
+- Team formation and membership management system with invitation and governance controls
+- Real-time score aggregation engine computing team performance from individual member contributions
+- Copy-trading matching system with automated forecast replication and risk management
+- Milestone achievement tracking with configurable criteria and automated reward triggers
+- Community sweetener pool management with transparent contribution tracking and distribution
+
+This PRD establishes the foundation for building Thesis-Market as a purpose-built talent discovery and validation platform that serves Open Libra's strategic objectives while creating genuine value for serious forecasters through team-based thesis validation, copy-trading opportunities, and milestone-based community rewards.
